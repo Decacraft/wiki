@@ -8,7 +8,7 @@ favicon: /favicon.png
 
 edit:
   repo: "https://github.com/Decacraft/DecaUtils"
-  base: /src/docs
+  branch: master
 
 links:
   - text: Site internet
