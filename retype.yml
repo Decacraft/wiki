@@ -6,10 +6,10 @@ branding:
 
 favicon: /favicon.png
 
-edit:
-  repo: "https://github.com/Decacraft/DecaUtils"
-  branch: master
-
+hub:
+  link: https://wiki.decacraft.net
+  alt: Accueil
+  
 links:
   - text: Site internet
     link: https://decacraft.net
