@@ -3,6 +3,8 @@ poweredByRetype: false
 branding:
   title: Decacraft
   label: Wiki
+  logo: /logo.png
+  favicon: /favicon.png
 
 links:
   - text: Site internet
