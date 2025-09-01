@@ -3,6 +3,10 @@ poweredByRetype: false
 branding:
   label: Wiki
   logo: /logo.png
+  colors:
+    label:
+      text: "#06a626"
+      background: "#ff0000"
 
 favicon: /favicon.png
 
@@ -13,3 +17,4 @@ hub:
 links:
   - text: Site internet
     link: https://decacraft.net
+
