@@ -1,26 +1,23 @@
-name: Publish Retype powered website to GitHub Pages
+name: Build and Deploy Retype
+
 on:
-  workflow_dispatch:
   push:
     branches:
       - main
 
 jobs:
-  publish:
-    name: Publish to retype branch
-
+  build:
     runs-on: ubuntu-latest
-
-    permissions:
-      contents: write
-
     steps:
       - uses: actions/checkout@v4
-
-      - uses: retypeapp/action-build@latest
+      - name: Install Retype
+        run: npm install retypeapp --global
+      - name: Build site
+        run: retype build
         env:
-          RETYPE_KEY: ${{ secrets.RETYPE_KEY }}
-
-      - uses: retypeapp/action-github-pages@latest
+          RETYPE_LICENSE: ${{ secrets.RETYPE_LICENSE }}
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          update-branch: true
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
