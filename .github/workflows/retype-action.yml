@@ -18,8 +18,8 @@ jobs:
       - uses: actions/checkout@v4
 
       - uses: retypeapp/action-build@latest
-        env:
-          RETYPE_KEY: ${{ secrets.RETYPE_KEY }}
+        with:
+          key: ${{ secrets.RETYPE_KEY }}
 
       - uses: retypeapp/action-github-pages@latest
         with:
