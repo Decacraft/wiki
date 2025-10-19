@@ -1,7 +1,7 @@
 ---
 title: Alcool
 icon: book
-ordre: 1
+order: 1
 ---
 # Boisson et Alcool
 
