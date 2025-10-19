@@ -1,0 +1,96 @@
+---
+title: Alcool
+icon: book
+ordre: 1
+---
+# Boisson et Alcool
+
+Faire des boissons et de l'alcool sur Decacraft est possible depuis la mise à jour **La Beuverie**. Une serie de succès est lié à la création de boisson.
+
+### Les Recettes
+---
+Un livre des recettes est donné aux joueurs auprès du PNJ Rodolphe disponible à la taverne du Spawn. Ainsi toutes les recettes seront visible dans votre livre des recette. Le livre des recettes vous appartient et seulement vous pourriez ouvrir votre livre. L'obtention de recette se fait en completant les succès lié à la création de boisson. Une recette se décompose en 4 étapes : La cuisson, la distillation, la fermentation et le scellage. d'alcool.
+
+### La Cuisson
+---
+Pour commencer une cuisson vou devez placez un chaudron remplie d'eau sous une source de chaleur(feu, lave, feu de camp). L'étape suivante est d'ajouter les ingrédients dans votre chaudron. Munissez vous de vos ingrédients et mettez les dedans à l'aide d'un clique-droit. Votre ingrédient disparait et des particules apparaissent au dessus du chaudron. Laisse cuire le temps indiqué sur la recette. La durée compte pour la qualité de la boisson utilise donc une montre et clique-droit sur le chaudron pour connaitre le temps d'ébulition. À l'aide de bouteille en verre tu peux récupérer ton mélange.
+
+![image_chaudron](https://i.ibb.co/fVLmkQ6B/image-2025-10-19-104221348.png)
+---
+
+### La Distillation
+---
+La distillation est une phase clé du processus de fabrication des boissons.
+Pour commencer, le joueur doit placer les bouteilles issues de la première étape dans un alambic. Dans cet alambic ajouté une poudre de blaze dans le compartiment du carburant et une poudre lumineuse dans le compartiment des ingrédients. Ces deux objets ne seront pas consommé.
+
+![image_alambic](https://i.ibb.co/7d0ZJFQr/image-2025-10-19-103201422.png)
+---
+
+### La Fermentation
+---
+Une fois la distillation terminée, la boisson doit être vieillie afin de développer ses arômes.
+Vous devez placer la boisson dans un tonneau en bois. Il existe deux types de tonneaux. Le grand contenant vingt-sept places, le petit contenant neuf places. Voici comment construire les tonneaux.
+
+![image_tonneau](https://i.ibb.co/KpMVgpdr/image-2025-10-19-104030735.png)
+---
+
+### Le Scellage
+---
+
+Le scellage marque la fin du processus de fabrication. Il permet de stabiliser la boisson pour qu’elle n’évolue plus dans le temps. Insérez vos boissons dans la table de scellage. Un son distinctif ainsi que la qualité de la boisson marquera son scellage. Le craft de la table de scellage est disponible des recettes Minecraft. Une fois scellée, la boisson devient un produit fini, prêt à être consommé ou vendu.
+
+![image_craftscellage](https://i.ibb.co/Psd5jQ7c/image-2025-10-19-104733944.png)
+---
+
+### La Vente
+---
+
+Il est possible de vendre vos boissons contre des Ð auprès du PNJ Amaury dans la taverne du spawn. Cepandant il achète seulement les boissons de parfaite qualité symbolisé [★★★★★].
+
+### La Foire aux Questions
+---
+
+**- Comment débloquer les recettes ?**  
+Pour débloquer une nouvelle recette , il faut atteindre le palier 5 dans une boisson. La recette est donné automatiquement dans le */reward*. Tu peux voir les boissons débloqué dans le */succes*
+
+**- Est-ce que le temps passe même quand la zone n’est pas chargée ?**  
+Oui. Le temps continue de s’écouler même quand la zone est déchargée. 
+Cela signifie que :   
+Les boissons dans les chaudrons continuent de cuire.  
+Les boissons dans les tonneaux continuent de vieillir.
+
+**- Est-ce que le fait de dormir accélère le processus dans les chaudrons ou tonneaux ?**  
+Non. Le temps est basé sur le temps réel (IRL) :  
+Dans un chaudron, 1 minute réelle = 1 minute de cuisson  
+Dans un tonneau, 1 jour Minecraft = 20 minutes réelles
+
+**- Comment construire les tonneaux ?**  
+Petit tonneau : 8 escaliers du même bois + une pancarte avec écrit "barrel" (à placer en dernier).
+Grand tonneau : 16 escaliers, 20 planches et 1 barrière du même bois + une pancarte avec écrit "barrel" (à placer en dernier).
+
+**- Quelle est la différence entre les tonneaux ?**  
+Le bois doit impérativement être du même type, certaines recettes nécessitent un bois précis.
+La taille influe sur la capacité :  
+Petit tonneau = 9 emplacements  
+Grand tonneau = 27 emplacements  
+Le baril minecraft fait office de tonneau en chêne.
+
+**- Les ressources dans l’alambic sont-elles consommées ?**  
+Non. Pour rappel, il faut une poudre de blaze et une poudre lumineuse pour faire fonctionner l’alambic, mais ces deux ressources ne sont pas consommées.
+
+**- Comment valider les paliers de succès ?**  
+Deux étapes :  
+La boisson doit être notée 5 étoiles → cela demande de respecter exactement la recette, de ne pas oublier ou ajouter d’ingrédient, et de ne pas dépasser le temps de cuisson.  
+La boisson doit ensuite être scellée → c’est cette action qui valide le palier.
+
+**- Peut-on vendre toutes les boissons au PNJ Amaury ?**  
+Non. Seules les boissons parfaites (5 étoiles + scellées) peuvent être vendues au PNJ Amaury.
+
+**- Est-ce que plusieurs joueurs peuvent utiliser le même tonneau ?**  
+Oui. Un tonneau est partagé et accessible à tous les joueurs tant qu’il n’est pas protégé. Vous pouvez donc vieillir vos boissons dans le même tonneau qu’un autre joueur.
+
+**- Est-ce qu’une boisson continue de vieillir même si elle a dépassé le temps recommandé ?**  
+Oui. Cependant, sa qualité peut diminuer si elle reste trop longtemps dans le tonneau.
+
+**- Que se passe-t-il si je me trompe dans une recette ?**  
+La boisson sera de mauvaise qualité (moins d’étoiles) et pourra donner des effets négatifs. Elle ne comptera pas pour débloquer les paliers.
