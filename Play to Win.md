@@ -119,9 +119,3 @@ Chaque action a un impact, chaque heure investie compte.
 Un système idéal pour ceux qui aiment **farmer**, **évoluer** et **se dépasser** dans un monde juste et gratifiant.
 
 Bienvenue sur Decacraft !
-
----
-
-## ❓ Foire aux questions
-
-*(À venir prochainement !)*
