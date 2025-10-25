@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.11.0.814714842928">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.11.0.814718550056">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.11.0">
@@ -11,7 +11,7 @@
     <!-- Primary Meta Tags -->
     <title>Master SDC</title>
     <meta name="title" content="Master SDC">
-    <meta name="description" content="#Master SDC">
+    <meta name="description" content="Ce plugin vous permet de trier vos items simplement. Chaque objet placé dans le coffre Alpha est envoyé vers le coffre ">
 
     <!-- Canonical -->
     <link rel="canonical" href="/mastersdc/">
@@ -20,22 +20,22 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="/mastersdc/">
     <meta property="og:title" content="Master SDC">
-    <meta property="og:description" content="#Master SDC">
+    <meta property="og:description" content="Ce plugin vous permet de trier vos items simplement. Chaque objet placé dans le coffre Alpha est envoyé vers le coffre ">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="/mastersdc/">
     <meta property="twitter:title" content="Master SDC">
-    <meta property="twitter:description" content="#Master SDC">
+    <meta property="twitter:description" content="Ce plugin vous permet de trier vos items simplement. Chaque objet placé dans le coffre Alpha est envoyé vers le coffre ">
 
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link href="../favicon.png" rel="icon">
-    <link href="../resources/css/retype.css?v=3.11.0.814714842928" rel="stylesheet">
+    <link href="../resources/css/retype.css?v=3.11.0.814718550056" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=3.11.0.814714842928" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/config.js?v=3.11.0.814718550056" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../resources/js/retype.js?v=3.11.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.11.0.814714842928" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.11.0.814718550056" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -170,7 +170,132 @@
         <span>Master SDC</span>
     </h1>
 </doc-anchor-target>
-<p>#Master SDC</p>
+<p>Ce plugin vous permet de trier vos items simplement.
+Chaque objet placé dans le coffre <strong>Alpha</strong> est envoyé vers le coffre <strong>Bêta</strong> correspondant, selon les filtres que vous avez définis.</p>
+<hr>
+<doc-anchor-target id="le-coffre-alpha-coffre-dentrée">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#le-coffre-alpha-coffre-dentrée">#</doc-anchor-trigger>
+        <span>Le Coffre “Alpha” (Coffre d’Entrée)</span>
+    </h3>
+</doc-anchor-target>
+<hr>
+<p>Le coffre <strong>Alpha</strong> est le point de départ de votre salle des coffres.<br />
+C’est dans ce coffre que vous déposerez les objets à trier.
+Pour créer ce coffre alpha, placez un coffre simple ou double puis executez cette commande :
+<code v-pre>/sdc create alpha &lt;nom de votre salle des coffres&gt;</code>  Exemple : <em>/sdc create alpha salledescoffres</em>  -&gt;
+Faites ensuite un clic droit sur le coffre.<br />
+Attention, un seul coffre alpha peut etre créer par joueur.</p>
+<doc-anchor-target id="le-coffre-beta-coffre-de-sortie">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#le-coffre-beta-coffre-de-sortie">#</doc-anchor-trigger>
+        <span>Le Coffre “Beta” (Coffre de Sortie)</span>
+    </h3>
+</doc-anchor-target>
+<hr>
+<p>Les coffres Bêta sont les coffres de sortie, ceux où les items seront triés.
+Ces coffres peuvent contenir un ou plusieurs filtres de tri.
+Pour créer un coffre Bêta, deux solutions s’offrent à vous :</p>
+<ol>
+<li><p>Placez un coffre simple ou double puis executez cette commande:
+Placez un coffre simple ou double, puis exécutez cette commande :
+<code v-pre>/sdc create beta &lt;nom de votre salle des coffres&gt; &lt;item&gt;</code>
+(Possibilité d’ajouter plusieurs filtres en même temps en les séparant par un espace.)
+Exemple : <em>/sdc create beta salledescoffres COBBLESTONE COBBLESTONE_SLAB</em>  -&gt;
+Faites ensuite un clic droit sur le coffre.</p>
+</li>
+<li><p>Placez un coffre simple ou double, puis exécutez cette commande :
+<code v-pre>/sdc create beta &lt;nom de votre salle des coffres&gt;</code>
+Prenez en main l’item que vous souhaitez trier et faites un clic droit sur le coffre avec cet item.
+Si vous ne tenez aucun item au moment du clic, ce coffre aura un filtre “Default”, ce qui aura pour conséquence d’envoyer tous les items non triés dans ce coffre.</p>
+</li>
+</ol>
+<doc-anchor-target id="ajouter-un-filtre">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#ajouter-un-filtre">#</doc-anchor-trigger>
+        <span>Ajouter un filtre</span>
+    </h3>
+</doc-anchor-target>
+<hr>
+<p>Vous pouvez ajouter un filtre à un coffre Bêta possédant déjà un ou plusieurs filtres.
+Pour cela, exécutez cette commande :
+<code v-pre>/sdc addFilter &lt;item&gt;</code><br />
+Vous pouvez aussi ne pas préciser d’item et faire comme lors de la création du coffre Bêta, en cliquant sur le coffre avec l’item souhaité dans votre main.</p>
+<doc-anchor-target id="supprimer-un-filtre-ou-un-coffre">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#supprimer-un-filtre-ou-un-coffre">#</doc-anchor-trigger>
+        <span>Supprimer un filtre ou un coffre</span>
+    </h3>
+</doc-anchor-target>
+<hr>
+<p>Vous pouvez supprimer tous les filtres d’un coffre Bêta avec une seule commande :
+<code v-pre>/sdc remove</code></p>
+<p>Vous pouvez supprimer un seul filtre appliqué à un coffre Bêta avec cette commande :
+<code v-pre>/sdc removeFilter &lt;item&gt;</code></p>
+<p>À noter : vous ne pouvez pas supprimer votre coffre Alpha tant que tous les coffres Bêta ne sont pas supprimés.</p>
+<doc-anchor-target id="ajouter-ou-supprimer-un-membre">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#ajouter-ou-supprimer-un-membre">#</doc-anchor-trigger>
+        <span>Ajouter ou supprimer un membre</span>
+    </h3>
+</doc-anchor-target>
+<hr>
+<p>Vous pouvez ajouter ou supprimer un membre de votre salle des coffres.
+Celui-ci pourra modifier votre salle des coffres.</p>
+<p>Pour ajouter un membre, exécutez cette commande :
+<code v-pre>/sdc share add &lt;pseudo&gt;</code><br />
+Pour supprimer un membre, exécutez cette commande :
+<code v-pre>/sdc share remove &lt;pseudo&gt;</code></p>
+<doc-anchor-target id="foire-aux-questions">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#foire-aux-questions">#</doc-anchor-trigger>
+        <span>Foire aux questions</span>
+    </h3>
+</doc-anchor-target>
+<hr>
+<ul>
+<li><p><strong>Est-ce que je peux avoir plusieurs salles des coffres ?</strong>
+Non, vous pouvez créer une seule salle des coffres, car un seul coffre Alpha par joueur est autorisé.</p>
+</li>
+<li><p><strong>Quel est le rayon d&#x27;action du coffre alpha ?</strong>
+Le coffre Alpha peut trier des items jusqu’à 250 blocs autour de lui.</p>
+</li>
+<li><p><strong>Il y a t&#x27;il une limite de coffre beta ?</strong>
+Oui, le nombre de coffres Bêta est limité.
+Vous débloquez 20 coffres Bêta par niveau de joueur.
+Le grade VIP permet de débloquer 250 coffres directement, et le grade Master permet d’en avoir 1000.
+C’est la limite maximale.</p>
+</li>
+<li><p><strong>Puis-je supprimer mon coffre Alpha ?</strong>
+Non, pas tant qu’il reste des coffres Bêta associés à la même salle des coffres.</p>
+</li>
+<li><p><strong>Puis-je avoir plusieurs coffres avec les même filter ?</strong>
+Oui, le coffre Alpha enverra les items en priorité vers le premier coffre créé.
+Lorsque celui-ci sera plein, il enverra les items vers le second.</p>
+</li>
+<li><p><strong>Puis-je trier des items avec des noms personnalisés (via anvil ou plugin) ?</strong>
+Oui, le tri se fait selon l’ID de l’item, donc un papier renommé ira tout de même dans le coffre à papier.</p>
+</li>
+<li><p><strong>Puis-je retrouver ces informations en jeu ?</strong>
+Oui, grâce à la commande suivante :
+<code v-pre>/sdc help</code></p>
+</li>
+<li><p><strong>Puis-je connaitre les filtres et information d&#x27;un coffre de la salle des coffres ?</strong>
+Oui, pour connaitres les informations lié à un coffre beta vous pouvez executez la commande suivante:
+<code v-pre>/sdc info</code> suivi d&#x27;un clic-droit.</p>
+<p>Vous retrouvez les informations suivante sur les coffres alpha:</p>
+<ul>
+<li>À qui appartient la salle des coffres</li>
+<li>Le nom de la salle des coffres</li>
+</ul>
+<p>Vous retrouvez les informations suivante sur les coffres beta:</p>
+<ul>
+<li>Le filtre du coffre</li>
+<li>Ou se situe le coffre alpha</li>
+<li>À qui appartient la salle des coffres</li>
+</ul>
+</li>
+</ul>
 
                                 
                                 <!-- Required only on API pages -->
