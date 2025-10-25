@@ -1,7 +1,7 @@
 ---
 title: Alcool
 icon: book
-order: 1
+order: 3
 ---
 # Boisson et Alcool
 ![ ](images/alcool/logo_decacraft_beuverie.png)
