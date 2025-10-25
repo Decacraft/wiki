@@ -4,7 +4,7 @@ icon: book
 order: 3
 ---
 # Boisson et Alcool
-![ |130](images/alcool/logo_decacraft_beuverie.png)
+![ |400](images/alcool/logo_decacraft_beuverie.png)
 
 Faire des boissons et de l’alcool sur Decacraft est possible depuis la mise à jour **La Beuverie**. Une série de succès est liée à la création de boissons.
 
