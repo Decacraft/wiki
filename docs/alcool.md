@@ -4,48 +4,70 @@ icon: book
 order: 1
 ---
 # Boisson et Alcool
+![](logo decacraft beuverie.png)
 
-Faire des boissons et de l'alcool sur Decacraft est possible depuis la mise à jour **La Beuverie**. Une serie de succès est lié à la création de boisson.
+Faire des boissons et de l’alcool sur Decacraft est possible depuis la mise à jour **La Beuverie**. Une série de succès est liée à la création de boissons.
 
 ### Les Recettes
 ---
-Un livre des recettes est donné aux joueurs auprès du PNJ Rodolphe disponible à la taverne du Spawn. Ainsi toutes les recettes seront visible dans votre livre des recette. Le livre des recettes vous appartient et seulement vous pourriez ouvrir votre livre. L'obtention de recette se fait en completant les succès lié à la création de boisson. Une recette se décompose en 4 étapes : La cuisson, la distillation, la fermentation et le scellage. d'alcool.
+Un livre de recettes est donné aux joueurs par le PNJ Rodolphe, disponible à la taverne du spawn. Ainsi, toutes les recettes seront visibles dans votre livre.
+Le livre des recettes vous appartient et seul vous pouvez l’ouvrir.
+L’obtention des recettes se fait en complétant les succès liés à la création de boissons.
+
+Une recette se décompose en quatre étapes : la cuisson, la distillation, la fermentation et le scellage.
 
 ### La Cuisson
 ---
-Pour commencer une cuisson vou devez placez un chaudron remplie d'eau sous une source de chaleur(feu, lave, feu de camp). L'étape suivante est d'ajouter les ingrédients dans votre chaudron. Munissez vous de vos ingrédients et mettez les dedans à l'aide d'un clique-droit. Votre ingrédient disparait et des particules apparaissent au dessus du chaudron. Laisse cuire le temps indiqué sur la recette. La durée compte pour la qualité de la boisson utilise donc une montre et clique-droit sur le chaudron pour connaitre le temps d'ébulition. À l'aide de bouteille en verre tu peux récupérer ton mélange.
+Pour commencer une cuisson, vous devez placer un chaudron rempli d’eau sous une source de chaleur (feu, lave, feu de camp).
+L’étape suivante consiste à ajouter les ingrédients dans votre chaudron. Munissez-vous de vos ingrédients et insérez-les à l’aide d’un clic droit.
+Votre ingrédient disparaît, et des particules apparaissent au-dessus du chaudron.
+Laissez cuire le temps indiqué dans la recette. La durée compte pour la qualité de la boisson : utilisez donc une montre et faites un clic droit sur le chaudron pour connaître le temps d’ébullition.
+À l’aide de bouteilles en verre, vous pouvez récupérer votre mélange.
 
-![image_chaudron](https://i.ibb.co/fVLmkQ6B/image-2025-10-19-104221348.png)
+![](different chaudron.png)
 ---
 
 ### La Distillation
 ---
-La distillation est une phase clé du processus de fabrication des boissons.
-Pour commencer, le joueur doit placer les bouteilles issues de la première étape dans un alambic. Dans cet alambic ajouté une poudre de blaze dans le compartiment du carburant et une poudre lumineuse dans le compartiment des ingrédients. Ces deux objets ne seront pas consommé.
+La distillation est une étape clé du processus de fabrication des boissons.
+Pour commencer, placez les bouteilles issues de la première étape dans un alambic.
+Dans cet alambic, ajoutez une poudre de blaze dans le compartiment du carburant, et une poudre lumineuse dans le compartiment des ingrédients.
+Ces deux objets ne seront pas consommés.
 
-![image_alambic](https://i.ibb.co/7d0ZJFQr/image-2025-10-19-103201422.png)
+![](alambic alcool.png)
 ---
 
 ### La Fermentation
 ---
 Une fois la distillation terminée, la boisson doit être vieillie afin de développer ses arômes.
-Vous devez placer la boisson dans un tonneau en bois. Il existe deux types de tonneaux. Le grand contenant vingt-sept places, le petit contenant neuf places. Voici comment construire les tonneaux.
+Placez la boisson dans un tonneau en bois. Il existe deux types de tonneaux :
 
-![image_tonneau](https://i.ibb.co/KpMVgpdr/image-2025-10-19-104030735.png)
+le petit tonneau, contenant 9 places,
+
+le grand tonneau, contenant 27 places.
+
+Voici comment les construire :
+
+![](exemple tonneau.png)
 ---
 
 ### Le Scellage
 ---
 
-Le scellage marque la fin du processus de fabrication. Il permet de stabiliser la boisson pour qu’elle n’évolue plus dans le temps. Insérez vos boissons dans la table de scellage. Un son distinctif ainsi que la qualité de la boisson marquera son scellage. Le craft de la table de scellage est disponible des recettes Minecraft. Une fois scellée, la boisson devient un produit fini, prêt à être consommé ou vendu.
+Le scellage marque la fin du processus de fabrication. Il permet de stabiliser la boisson pour qu’elle n’évolue plus dans le temps.
+Insérez vos boissons dans la table de scellage. Un son distinctif ainsi que l’affichage de la qualité de la boisson marqueront son scellage.
+Le craft de la table de scellage est disponible dans les recettes Minecraft.
 
-![image_craftscellage](https://i.ibb.co/Psd5jQ7c/image-2025-10-19-104733944.png)
+Une fois scellée, la boisson devient un produit fini, prêt à être consommé ou vendu.
+
+![](craft table scellage.png)
 ---
 
 ### La Vente
 ---
 
-Il est possible de vendre vos boissons contre des Ð auprès du PNJ Amaury dans la taverne du spawn. Cepandant il achète seulement les boissons de parfaite qualité symbolisé [★★★★★].
+Il est possible de vendre vos boissons contre des Ð auprès du PNJ Amaury dans la taverne du spawn.
+Cependant, il achète uniquement les boissons de qualité parfaite, symbolisées par [★★★★★].
 
 ### La Foire aux Questions
 ---
