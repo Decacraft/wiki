@@ -4,7 +4,7 @@ icon: book
 order: 1
 ---
 # Boisson et Alcool
-![ ](../images/alcool/logo_decacraft_beuverie.png)
+![ ](images/alcool/logo_decacraft_beuverie.png)
 
 Faire des boissons et de l’alcool sur Decacraft est possible depuis la mise à jour **La Beuverie**. Une série de succès est liée à la création de boissons.
 
@@ -24,7 +24,7 @@ Votre ingrédient disparaît, et des particules apparaissent au-dessus du chaudr
 Laissez cuire le temps indiqué dans la recette. La durée compte pour la qualité de la boisson : utilisez donc une montre et faites un clic droit sur le chaudron pour connaître le temps d’ébullition.
 À l’aide de bouteilles en verre, vous pouvez récupérer votre mélange.
 
-![ ](../images/alcool/different_chaudron.png)
+![ ](images/alcool/different_chaudron.png)
 ---
 
 ### La Distillation
@@ -34,7 +34,7 @@ Pour commencer, placez les bouteilles issues de la première étape dans un alam
 Dans cet alambic, ajoutez une poudre de blaze dans le compartiment du carburant, et une poudre lumineuse dans le compartiment des ingrédients.
 Ces deux objets ne seront pas consommés.
 
-![ ](../images/alcool/alambic_alcool.png)
+![ ](images/alcool/alambic_alcool.png)
 ---
 
 ### La Fermentation
@@ -48,7 +48,7 @@ le grand tonneau, contenant 27 places.
 
 Voici comment les construire :
 
-![ ](../images/alcool/exemple_tonneau.png)
+![ ](images/alcool/exemple_tonneau.png)
 ---
 
 ### Le Scellage
@@ -60,7 +60,7 @@ Le craft de la table de scellage est disponible dans les recettes Minecraft.
 
 Une fois scellée, la boisson devient un produit fini, prêt à être consommé ou vendu.
 
-![ ](../images/alcool/craft_table_scellage.png)
+![ ](images/alcool/craft_table_scellage.png)
 ---
 
 ### La Vente
