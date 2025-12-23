@@ -10,6 +10,7 @@ Ce plugin vous permet d'avoir tous vos conteneurs protégés par défaut : *coff
 Des conteneurs peuvent être protégés mais ne le sont pas par défaut. En voici une liste : *pancartes, pancartes suspendues, portes, trappes, portillons, bannières, bibliothèques sculptées, cadres, portes armure.*
 
 ### Commande de protection
+---
 
 ``/lock`` : Créer une protection privée.  
 ``/lock public`` : Créer une protection publique. (Le coffre vous appartient toujours mais tout le monde peut déposer et prendre dedans. Les autres joueurs ne peuvent pas le casser.)  
@@ -17,12 +18,14 @@ Des conteneurs peuvent être protégés mais ne le sont pas par défaut. En voic
 ``/lock private`` Permet de rendre privé une protection publique.  
 ``/unlock`` : Supprimer la protection privée.  
 
-### Ajouter un joueur à vos protections.
+### Ajouter un joueur à vos protections
+---
 
 ``/bolt edit add <pseudo>`` : Clique droit sur le conteneur, permet d'ajouter un joueur à cette protection.  
 ``/bolt edit remove <pseudo>`` : Clique droit sur le conteneur, permet de retirer un joueur à cette protection.  
 ``/bolt trust add player <pseudo>`` : Ajouter le joueur en tant que membre de confiance, il a donc accès à toutes vos protections.  
 ``/bolt trust remove player <pseudo>`` : Retirer le joueur en tant que membre de confiance.  
 
-### Autre.
+### Autre
+---
 ``/bolt info`` : Clique droit sur la protection, permet d'avoir les informations de celle-ci.
