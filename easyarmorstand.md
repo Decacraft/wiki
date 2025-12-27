@@ -52,7 +52,7 @@ Vous pouvez copier les paramètres d'un porte armure en le selectionnant avec l'
 
 Pour annuler la copie des paramètres, utiliser la commande suivante : **/eas clipboard clear**
 
-![ ](images/eas/configurationeas.png)
+![ ](images/eas/configeas.png)
 
 ---
 ### Idée d'utilisation décoration avec l'éditeur
