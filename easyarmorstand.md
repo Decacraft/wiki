@@ -38,9 +38,12 @@ Vous pouvez également bouger le porte-armure complet en faisant clic-droit sur 
 
 Dans l'interface virtuelle de la photo de sélection des membres, vous pouvez sélectionner, avec le clic gauche, le petit carré lumineux pour appliquer des options à ce porte-armure. Les options possibles sont :
 - Mettre un nom
-Vous pouvez ajoutez des couleurs en mettant entre "<>" les couleurs suivantes :
 
-black, dark_blue, dark_green, dark_aqua, dark_red, dark_purple, gold, gray, dark_gray, blue, green, aqua, red, light_purple, yellow, ou white. Vous pouvez mettre aussi des couleurs hexadecimale en ajoutant un #avant le code hexadecimale.   Exemple : <#FF7676>Bonjour !
+Vous pouvez ajoutez des couleurs en mettant entre "<>" les couleurs suivantes :
+_black, dark_blue, dark_green, dark_aqua, dark_red, dark_purple, gold, gray, dark_gray, blue, green, aqua, red, light_purple, yellow, ou white_. Vous pouvez mettre aussi des couleurs hexadecimale en ajoutant un #avant le code hexadecimale.   Exemple : _<#FF7676>Bonjour !_
+
+Il se peut que le nom que vous avez ajouté n'apparait pas. Pour resoudre ce problème selectionner le porte armure et faite la commande   ``/eas name visible true``  
+
 - Rendre invisible le porte-armure
 - Ajouter des bras au porte-armure
 - Désactiver la gravité du porte-armure
@@ -50,7 +53,7 @@ black, dark_blue, dark_green, dark_aqua, dark_red, dark_purple, gold, gray, dark
 
 Vous pouvez copier les paramètres d'un porte armure en le selectionnant avec l'éditeur et en entrant la commande suivante : **/eas copy**
 
-Pour annuler la copie des paramètres, utiliser la commande suivante : **/eas clipboard clear**
+Pour annuler la copie des paramètres, utiliser la commande suivante : ``/eas clipboard clear``
 
 ![ ](images/eas/configeas.png)
 
