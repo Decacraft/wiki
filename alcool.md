@@ -1,6 +1,6 @@
 ---
 title: Alcool
-icon: book
+icon: wine_glass
 order: 3
 ---
 # Boisson et Alcool
