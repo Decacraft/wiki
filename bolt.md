@@ -16,7 +16,9 @@ Des conteneurs peuvent être protégés mais ne le sont pas par défaut. En voic
 ``/lock public`` : Créer une protection publique. (Le coffre vous appartient toujours mais tout le monde peut déposer et prendre dedans. Les autres joueurs ne peuvent pas le casser.)  
 ``/lock display`` Permet de voir le contenu d'un conteneur sans pouvoir prendre ou déposer les objets à l'intérieur.  
 ``/lock private`` Permet de rendre privé une protection publique.  
+``/lock deposit`` Permet à tous d'ouvrir le coffre et d'uniquement déposer des objets dedans.  
 ``/unlock`` : Supprimer la protection privée.  
+``/bolt mode nolock`` Permet de rendre le conteneur directement lock/unlock au moment de la pose.  
 
 ### Ajouter un joueur à vos protections
 ---
@@ -28,4 +30,6 @@ Des conteneurs peuvent être protégés mais ne le sont pas par défaut. En voic
 
 ### Autre
 ---
-``/bolt info`` : Clique droit sur la protection, permet d'avoir les informations de celle-ci.
+``/bolt info`` : Clique droit sur la protection, permet d'avoir les informations de celle-ci.  
+``/bolt mode persist`` Permet de garder la dernière commande liée aux protections en persistance. (Refaire la commande pour désactiver)  
+``/bolt mode nospam`` : Permet d'activer/réduire au silence les notifications au moment de la pose d'un conteneur.  
