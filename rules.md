@@ -1,7 +1,7 @@
 ---
 title: Règlement
 icon: book
-order: 5
+order: 500
 ---
 # Règlement
 
