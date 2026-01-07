@@ -1,5 +1,5 @@
 ---
-title: Alcool
+title: Monde Créatif
 icon: book
 order: 3
 ---
