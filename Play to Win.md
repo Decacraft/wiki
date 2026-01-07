@@ -1,7 +1,7 @@
 ---
 title: Play to Win
 icon: book
-order: 4
+order: 499
 ---
 
 # Le système *Play to Win*
