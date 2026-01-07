@@ -1,7 +1,7 @@
 ---
 title: Porte Armure personnalisé
 icon: book
-order: 2
+order: 260
 ---
 
 # Les portes armures personnalisés
