@@ -15,10 +15,11 @@ Chaque objet placé dans le coffre **Alpha** est envoyé vers le coffre **Bêta*
 ---
 Le coffre **Alpha** est le point de départ de votre salle des coffres.  
 C’est dans ce coffre que vous déposerez les objets à trier.
-Pour créer ce coffre alpha, placez un coffre simple ou double puis executez cette commande :
-``/sdc create alpha <nom de votre salle des coffres>``  Exemple : _/sdc create alpha salledescoffres_  ->
-Faites ensuite un clic droit sur le coffre.  
-Attention, un seul coffre alpha peut etre créer par joueur.
+Pour créer ce coffre alpha, vous devez le craft avec la recette suivante :  
+
+![ ](images/mastersdc/craftcoffrealpha.png)
+ 
+Plusieurs coffres peuvent être créés cependant un niveau de joueur est requis.
 
 ### Le Coffre “Beta” (Coffre de Sortie)
 ---
