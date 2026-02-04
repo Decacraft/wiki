@@ -28,13 +28,13 @@ Ces coffres peuvent contenir un ou plusieurs filtres de tri.
 Pour créer un coffre Bêta, deux solutions s’offrent à vous :
 1. Placez un coffre simple ou double puis executez cette commande:
 Placez un coffre simple ou double, puis exécutez cette commande :
-``/sdc create beta <nom de votre salle des coffres> <item>``
+``/sdc create beta <pseudo> <item>``
 (Possibilité d’ajouter plusieurs filtres en même temps en les séparant par un espace.)
 Exemple : _/sdc create beta salledescoffres COBBLESTONE COBBLESTONE_SLAB_  ->
 Faites ensuite un clic droit sur le coffre.
 
 2. Placez un coffre simple ou double, puis exécutez cette commande :
-``/sdc create beta <nom de votre salle des coffres>``
+``/sdc create beta <pseudo>``
 Prenez en main l’item que vous souhaitez trier et faites un clic droit sur le coffre avec cet item.
 Si vous ne tenez aucun item au moment du clic, ce coffre aura un filtre “Default”, ce qui aura pour conséquence d’envoyer tous les items non triés dans ce coffre.
 
