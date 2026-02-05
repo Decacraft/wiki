@@ -30,7 +30,7 @@ Pour créer un coffre Bêta, deux solutions s’offrent à vous :
 Placez un coffre simple ou double, puis exécutez cette commande :
 ``/sdc create beta <pseudo> <item>``
 (Possibilité d’ajouter plusieurs filtres en même temps en les séparant par un espace.)
-Exemple : _/sdc create beta salledescoffres COBBLESTONE COBBLESTONE_SLAB_  ->
+Exemple : _/sdc create beta pseudo COBBLESTONE COBBLESTONE_SLAB_  ->
 Faites ensuite un clic droit sur le coffre.
 
 2. Placez un coffre simple ou double, puis exécutez cette commande :
