@@ -7,7 +7,7 @@ order: 260
 # Les portes armures personnalisés
 
 Les portes d'armures personnalisées sont possibles grâce au plugin EasyArmorStand (EAS). EasyArmorStand permet de modifier facilement les porte-armures dans Minecraft sans utiliser de commandes.
-Tout se fait avec un outil spécial : l'l'Éditeur  d'Armor stand
+Tout se fait avec un outil spécial : l'Éditeur  d'Armor stand
 
 ### Craft du Bâton Éditeur
 
