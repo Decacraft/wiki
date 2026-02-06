@@ -70,7 +70,7 @@ Pour supprimer un membre, exécutez cette commande :
 ---
 
 - **Est-ce que je peux avoir plusieurs salles des coffres ?**
-Non, vous pouvez créer une seule salle des coffres, car un seul coffre Alpha par joueur est autorisé.
+Non, vous pouvez créer une seule salle des coffres, car une salle des coffres est disponible par joueur.
 
 - **Quel est le rayon d'action du coffre alpha ?**
 Le coffre Alpha peut trier des items jusqu’à 250 blocs autour de lui.
@@ -107,3 +107,6 @@ Oui, pour connaitres les informations lié à un coffre beta vous pouvez execute
   - Le filtre du coffre 
   - Ou se situe le coffre alpha
   - À qui appartient la salle des coffres
+
+- **Combien de coffre alpha je peux avoir au maximum ?**
+On peut avoir au maximum 6 coffres alpha selon son niveau. (+1 lvl 14, +1 lvl 22, +1 lvl 31, +1 lvl 41 , +1 lvl 50)
