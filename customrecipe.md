@@ -9,7 +9,7 @@ Fonctionne exactement comme un cadre sauf que celui-ci est invisible.
 ### Ardoise des abîmes renforcée
 ---
 
-![ ](images/recettecustom/Ardoise_des_abîmes_renforcées.png)
+![ ](images/recettecustom/ardoise_abime_renforcee.png)
 
 ### Les Grelampes
 ---
