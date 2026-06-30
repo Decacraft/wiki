@@ -5,6 +5,8 @@ on:
     branches:
       - main
 
+url: https://wiki.decacraft.net
+
 jobs:
   publish:
     runs-on: ubuntu-latest
