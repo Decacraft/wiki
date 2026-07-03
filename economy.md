@@ -23,9 +23,9 @@ Une des façons principales du serveur pour gagner de l'argent sur le serveur es
 - ![ |16](images/items/coal.png) Charbon -> 3Ð
 - ![ |16](images/items/redstone.png) Redstone -> 4Ð
 - ![ |16](images/items/lapis_lazuli.png) Lapis lazuli -> 7Ð
-- ![ |16](images/items/raw_copper.png) Cuivre brut -> 2Ð /  ![ |16](images/items/copper_ingot.png) Lingot de cuivre -> 3Ð
-- ![ |16](images/items/raw_iron.png) Fer brut -> 4Ð /  ![ |16](images/items/iron_ingot.png) Lingot de fer -> 5Ð
-- ![ |16](images/items/raw_gold.png) Or brut -> 7Ð /  ![ |16](images/items/gold_ingot.png) Lingot d'or -> 20Ð
+- ![ |16](images/items/raw_copper.png) Cuivre brut -> 4Ð /  ![ |16](images/items/copper_ingot.png) Lingot de cuivre -> 2Ð
+- ![ |16](images/items/raw_iron.png) Fer brut -> 7Ð /  ![ |16](images/items/iron_ingot.png) Lingot de fer -> 4Ð
+- ![ |16](images/items/raw_gold.png) Or brut -> 27Ð /  ![ |16](images/items/gold_ingot.png) Lingot d'or -> 9Ð
 - ![ |16](images/items/emerald.png) Emeraude -> 20Ð
 - ![ |16](images/items/diamond.png) Diamant -> 120Ð
 - ![ |16](images/items/netherite_ingot.png) Lingot de netherite -> 800Ð
