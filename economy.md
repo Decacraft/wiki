@@ -1,6 +1,6 @@
 # L'économie
 ---
-Un système d'économie est mis en place, qui te permet de montrr ta puissance ! Tu peux utiliser l'argent pour acheter divers items dans le market ou ailleurs. Il existe plusieurs moyens de se faire de l'argent, à toi de les découvrir...
+Un système d'économie est mis en place, qui te permet de montrer ta puissance ! Tu peux utiliser l'argent pour acheter divers items dans le market ou ailleurs. Il existe plusieurs moyens de se faire de l'argent, à toi de les découvrir...
 La devise economique du serveur est le **Ð**
 
 ### Les commandes
