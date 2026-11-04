@@ -1,5 +1,7 @@
 ﻿# Accueil
 
+> Le wiki officiel de DecaCraft, serveur Minecraft freebuild Play2Win. Règlement, économie, protections, grades et guides.
+
 - [Accueil](https://wiki.decacraft.net/readme.md): Accueil
 - [Règlement](https://wiki.decacraft.net/rules.md): Il est interdit de spammer.
 - [Play to Win](https://wiki.decacraft.net/play-to-win.md): Sur Decacraft, le mode Play2Win est bien plus qu’un simple système de progression : c’est le cœur de l’expérience de jeu.
