@@ -11,14 +11,14 @@ order: 10000
 
 Ce wiki regroupe tout ce qu'il faut savoir pour bien débuter et profiter du serveur.
 
-!!!info Se connecter
-| | |
+### Se connecter
+|||
 |---|---|
 | **IP du serveur** | `decacraft.net` |
 | **Version Minecraft** | `Java edition : 26.3` |
 | **Discord** | discord.decacraft.net |
 | **Site internet** | [decacraft.net](https://decacraft.net) |
-!!!
+
 
 ---
 
