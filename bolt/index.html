@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.848063869089">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.848063992314">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
 
     <!-- Primary Meta Tags -->
-    <title>Protections</title>
-    <meta name="title" content="Protections">
-    <meta name="description" content="Ce plugin vous permet d'avoir tous vos conteneurs protégés par défaut : coffres, coffres piégés, fours, haut fourneaux, fumoirs, distributeurs, droppers,">
+    <title>Les Protections</title>
+    <meta name="title" content="Les Protections">
+    <meta name="description" content="Protège tes coffres, fours, portes et autres conteneurs sur DecaCraft avec le plugin Bolt : commandes /lock, /unlock, partage avec d’autres joueurs et membres de confiance.">
 
     <!-- Canonical -->
     <link rel="canonical" href="https://wiki.decacraft.net/bolt/">
@@ -21,16 +21,16 @@
     <!-- Open Graph -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://wiki.decacraft.net/bolt/">
-    <meta property="og:title" content="Protections">
-    <meta property="og:description" content="Ce plugin vous permet d'avoir tous vos conteneurs protégés par défaut : coffres, coffres piégés, fours, haut fourneaux, fumoirs, distributeurs, droppers,">
+    <meta property="og:title" content="Les Protections">
+    <meta property="og:description" content="Protège tes coffres, fours, portes et autres conteneurs sur DecaCraft avec le plugin Bolt : commandes /lock, /unlock, partage avec d’autres joueurs et membres de confiance.">
     <meta property="og:site_name" content="">
     <meta property="og:locale" content="en_US">
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:url" content="https://wiki.decacraft.net/bolt/">
-    <meta name="twitter:title" content="Protections">
-    <meta name="twitter:description" content="Ce plugin vous permet d'avoir tous vos conteneurs protégés par défaut : coffres, coffres piégés, fours, haut fourneaux, fumoirs, distributeurs, droppers,">
+    <meta name="twitter:title" content="Les Protections">
+    <meta name="twitter:description" content="Protège tes coffres, fours, portes et autres conteneurs sur DecaCraft avec le plugin Bolt : commandes /lock, /unlock, partage avec d’autres joueurs et membres de confiance.">
 
     <!-- Alternate Markdown -->
     <link rel="alternate" type="text/markdown" href="https://wiki.decacraft.net/bolt.md">
@@ -38,11 +38,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../favicon.png" />
-    <link href="../resources/css/retype.css?v=4.6.0.848063869089" rel="stylesheet">
+    <link href="../resources/css/retype.css?v=4.6.0.848063992314" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=4.6.0.848063869089" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/config.js?v=4.6.0.848063992314" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=4.6.0.848063869089" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=4.6.0.848063992314" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -148,28 +148,187 @@
 
                 <!-- Page content  -->
 <h1 id="les-protections">Les Protections</h1>
-<p>Ce plugin vous permet d&#x27;avoir tous vos conteneurs protégés par défaut : <em>coffres, coffres piégés, fours, haut fourneaux, fumoirs, distributeurs, droppers, barrils, composteurs, pupitres, boîtes de shulker, entonnoirs, balises, etc...</em></p>
-<p>Des conteneurs peuvent être protégés mais ne le sont pas par défaut. En voici une liste : <em>pancartes, pancartes suspendues, portes, trappes, portillons, bannières, bibliothèques sculptées, cadres, portes armure.</em></p>
-<h3 id="commande-de-protection">Commande de protection</h3>
-<hr>
-<p><code translate="no" v-pre>/lock</code> : Créer une protection privée.<br />
-<code translate="no" v-pre>/lock public</code> : Créer une protection publique. (Le coffre vous appartient toujours mais tout le monde peut déposer et prendre dedans. Les autres joueurs ne peuvent pas le casser.)<br />
-<code translate="no" v-pre>/lock display</code> Permet de voir le contenu d&#x27;un conteneur sans pouvoir prendre ou déposer les objets à l&#x27;intérieur.<br />
-<code translate="no" v-pre>/lock private</code> Permet de rendre privé une protection publique.<br />
-<code translate="no" v-pre>/lock deposit</code> Permet à tous d&#x27;ouvrir le coffre et d&#x27;uniquement déposer des objets dedans.<br />
-<code translate="no" v-pre>/unlock</code> : Supprimer la protection privée.<br />
-<code translate="no" v-pre>/bolt mode nolock</code> Permet de rendre le conteneur directement lock/unlock au moment de la pose.</p>
-<h3 id="ajouter-un-joueur-à-vos-protections">Ajouter un joueur à vos protections</h3>
-<hr>
-<p><code translate="no" v-pre>/bolt edit add &lt;pseudo&gt;</code> : Clique droit sur le conteneur, permet d&#x27;ajouter un joueur à cette protection.<br />
-<code translate="no" v-pre>/bolt edit remove &lt;pseudo&gt;</code> : Clique droit sur le conteneur, permet de retirer un joueur à cette protection.<br />
-<code translate="no" v-pre>/bolt trust add player &lt;pseudo&gt;</code> : Ajouter le joueur en tant que membre de confiance, il a donc accès à toutes vos protections.<br />
-<code translate="no" v-pre>/bolt trust remove player &lt;pseudo&gt;</code> : Retirer le joueur en tant que membre de confiance.</p>
-<h3 id="autre">Autre</h3>
-<hr>
-<p><code translate="no" v-pre>/bolt info</code> : Clique droit sur la protection, permet d&#x27;avoir les informations de celle-ci.<br />
-<code translate="no" v-pre>/bolt mode persist</code> Permet de garder la dernière commande liée aux protections en persistance. (Refaire la commande pour désactiver)<br />
-<code translate="no" v-pre>/bolt mode nospam</code> : Permet d&#x27;activer/réduire au silence les notifications au moment de la pose d&#x27;un conteneur.</p>
+<div id="retype-page-description" class="description-display text-description font-description leading-description mb-description-margin-bottom mt-description-margin-top tracking-description text-transform-description">Protège tes coffres, fours, portes et autres conteneurs sur DecaCraft avec le plugin Bolt : commandes /lock, /unlock, partage avec d’autres joueurs et membres de confiance.</div>
+<p>Le plugin <strong>Bolt</strong> protège automatiquement tes conteneurs dès que tu les poses : personne d&#x27;autre que toi ne peut les ouvrir ni les casser. Tu n&#x27;as rien à faire pour être protégé.</p>
+<h2 id="ce-qui-est-protégé">Ce qui est protégé</h2>
+<h3 id="protégé-par-défaut">Protégé par défaut</h3>
+<p>Tous ces blocs sont verrouillés dès leur pose :</p>
+<ul>
+<li>coffres et coffres piégés</li>
+<li>fours, hauts fourneaux et fumoirs</li>
+<li>distributeurs et droppers</li>
+<li>barils</li>
+<li>composteurs</li>
+<li>pupitres</li>
+<li>boîtes de shulker</li>
+<li>entonnoirs</li>
+<li>balises</li>
+<li>etc.</li>
+</ul>
+<h3 id="protégeables-mais-pas-par-défaut">Protégeables, mais pas par défaut</h3>
+<p>Ces blocs peuvent être protégés, mais <strong>tu dois le faire toi-même</strong> avec <code translate="no" v-pre>/lock</code> :</p>
+<ul>
+<li>pancartes et pancartes suspendues</li>
+<li>portes, trappes et portillons</li>
+<li>bannières</li>
+<li>bibliothèques sculptées</li>
+<li>cadres</li>
+<li>portes-armures</li>
+</ul>
+<h2 id="démarrage-rapide">Démarrage rapide</h2>
+<ol>
+<li><strong>Pose</strong> un conteneur : il est protégé automatiquement.</li>
+<li>Pour <strong>partager</strong> une protection avec un ami, utilise <code translate="no" v-pre>/bolt edit add &lt;pseudo&gt;</code>, puis fais un clic droit sur le conteneur.</li>
+<li>Pour <strong>retirer</strong> une protection, utilise <code translate="no" v-pre>/unlock</code>, puis fais un clic droit sur le conteneur.</li>
+</ol>
+<blockquote>
+<p><strong><span class="docs-emoji">&#x26A0;&#xFE0F;</span> En cas de vol ou de grief,</strong> ouvre un <strong>ticket sur le Discord</strong> : le staff peut intervenir (voir le <a href="../rules/">règlement</a>).</p>
+</blockquote>
+<h2 id="commandes-de-protection">Commandes de protection</h2>
+<p>Après avoir tapé la commande, <strong>fais un clic droit sur le conteneur</strong> concerné.</p>
+<retype-table copy-text="| Commande | Effet |
+|---|---|
+| `/lock` | Crée une protection **privée** |
+| `/lock public` | Crée une protection **publique** : le conteneur t'appartient toujours, mais tout le monde peut y déposer et y prendre des objets. Les autres joueurs ne peuvent pas le casser |
+| `/lock display` | Permet de **voir** le contenu du conteneur sans pouvoir prendre ni déposer d'objets |
+| `/lock deposit` | Permet à tous d'**ouvrir** le conteneur et d'y **déposer** des objets, sans pouvoir en prendre |
+| `/lock private` | Rend **privée** une protection publique |
+| `/unlock` | **Supprime** la protection |">
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th>Commande</th>
+<th>Effet</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code translate="no" v-pre>/lock</code></td>
+<td>Crée une protection <strong>privée</strong></td>
+</tr>
+<tr>
+<td><code translate="no" v-pre>/lock public</code></td>
+<td>Crée une protection <strong>publique</strong> : le conteneur t&#x27;appartient toujours, mais tout le monde peut y déposer et y prendre des objets. Les autres joueurs ne peuvent pas le casser</td>
+</tr>
+<tr>
+<td><code translate="no" v-pre>/lock display</code></td>
+<td>Permet de <strong>voir</strong> le contenu du conteneur sans pouvoir prendre ni déposer d&#x27;objets</td>
+</tr>
+<tr>
+<td><code translate="no" v-pre>/lock deposit</code></td>
+<td>Permet à tous d&#x27;<strong>ouvrir</strong> le conteneur et d&#x27;y <strong>déposer</strong> des objets, sans pouvoir en prendre</td>
+</tr>
+<tr>
+<td><code translate="no" v-pre>/lock private</code></td>
+<td>Rend <strong>privée</strong> une protection publique</td>
+</tr>
+<tr>
+<td><code translate="no" v-pre>/unlock</code></td>
+<td><strong>Supprime</strong> la protection</td>
+</tr>
+</tbody>
+</table>
+</div>
+</retype-table>
+<h2 id="partager-tes-protections">Partager tes protections</h2>
+<h3 id="pour-une-protection-précise">Pour une protection précise</h3>
+<retype-table copy-text="| Commande | Effet |
+|---|---|
+| `/bolt edit add &lt;pseudo&gt;` | Ajoute un joueur à cette protection (clic droit sur le conteneur) |
+| `/bolt edit remove &lt;pseudo&gt;` | Retire un joueur de cette protection (clic droit sur le conteneur) |">
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th>Commande</th>
+<th>Effet</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code translate="no" v-pre>/bolt edit add &lt;pseudo&gt;</code></td>
+<td>Ajoute un joueur à cette protection (clic droit sur le conteneur)</td>
+</tr>
+<tr>
+<td><code translate="no" v-pre>/bolt edit remove &lt;pseudo&gt;</code></td>
+<td>Retire un joueur de cette protection (clic droit sur le conteneur)</td>
+</tr>
+</tbody>
+</table>
+</div>
+</retype-table>
+<h3 id="pour-toutes-tes-protections">Pour toutes tes protections</h3>
+<retype-table copy-text="| Commande | Effet |
+|---|---|
+| `/bolt trust add player &lt;pseudo&gt;` | Ajoute le joueur comme **membre de confiance** : il a accès à **toutes** tes protections |
+| `/bolt trust remove player &lt;pseudo&gt;` | Retire le joueur de tes membres de confiance |">
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th>Commande</th>
+<th>Effet</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code translate="no" v-pre>/bolt trust add player &lt;pseudo&gt;</code></td>
+<td>Ajoute le joueur comme <strong>membre de confiance</strong> : il a accès à <strong>toutes</strong> tes protections</td>
+</tr>
+<tr>
+<td><code translate="no" v-pre>/bolt trust remove player &lt;pseudo&gt;</code></td>
+<td>Retire le joueur de tes membres de confiance</td>
+</tr>
+</tbody>
+</table>
+</div>
+</retype-table>
+<blockquote>
+<p><strong><span class="docs-emoji">&#x1F4A1;</span> Astuce :</strong> ne mets en confiance que des joueurs sur qui tu peux compter, car ils auront accès à tous tes conteneurs protégés.</p>
+</blockquote>
+<h2 id="autres-commandes">Autres commandes</h2>
+<retype-table copy-text="| Commande | Effet |
+|---|---|
+| `/bolt info` | Affiche les informations d'une protection (clic droit dessus) |
+| `/bolt mode persist` | Garde la dernière commande de protection active en continu. Refais la commande pour désactiver le mode |
+| `/bolt mode nospam` | Réduit au silence (ou réactive) les notifications au moment de la pose d'un conteneur |
+| `/bolt mode nolock` | Pose un conteneur sans qu'il soit protégé automatiquement `[À VÉRIFIER]` |">
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th>Commande</th>
+<th>Effet</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code translate="no" v-pre>/bolt info</code></td>
+<td>Affiche les informations d&#x27;une protection (clic droit dessus)</td>
+</tr>
+<tr>
+<td><code translate="no" v-pre>/bolt mode persist</code></td>
+<td>Garde la dernière commande de protection active en continu. Refais la commande pour désactiver le mode</td>
+</tr>
+<tr>
+<td><code translate="no" v-pre>/bolt mode nospam</code></td>
+<td>Réduit au silence (ou réactive) les notifications au moment de la pose d&#x27;un conteneur</td>
+</tr>
+<tr>
+<td><code translate="no" v-pre>/bolt mode nolock</code></td>
+<td>Pose un conteneur sans qu&#x27;il soit protégé automatiquement <code translate="no" v-pre>[À VÉRIFIER]</code></td>
+</tr>
+</tbody>
+</table>
+</div>
+</retype-table>
+<h2 id="pages-liées">Pages liées</h2>
+<ul>
+<li><a href="../rules/#article-3--le-grief">Règlement</a> : les règles sur le grief</li>
+<li><a href="../alcool/">Boisson et Alcool</a> : un tonneau non protégé est partagé entre joueurs</li>
+<li><a href="../mastersdc/">Master SDC</a> : le tri automatique de tes coffres</li>
+</ul>
 
                 
                 <!-- Required only on API pages -->
