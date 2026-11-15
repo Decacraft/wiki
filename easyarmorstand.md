@@ -1,66 +1,100 @@
 ---
-title: Porte Armure personnalisé
-icon: book
+icon: person
+title: Porte-armures personnalisés
+description: "Personnalise tes porte-armures avec le plugin EasyArmorStand (EAS) : bâton éditeur, déplacement, options, couleurs de nom et copie des paramètres, sans commandes."
 order: 260
 ---
 
-# Les portes armures personnalisés
+# Les porte-armures personnalisés
 
-Les portes d'armures personnalisées sont possibles grâce au plugin EasyArmorStand (EAS). EasyArmorStand permet de modifier facilement les porte-armures dans Minecraft sans utiliser de commandes.
-Tout se fait avec un outil spécial : l'Éditeur  d'Armor stand
+Le plugin **EasyArmorStand** (EAS) permet de modifier facilement les porte-armures dans Minecraft **sans utiliser de commandes**. Tout se fait avec un outil spécial : le **Bâton Éditeur**.
 
-### Craft du Bâton Éditeur
+## Fabriquer le Bâton Éditeur
 
-Ce bâton se fabrique via la table de craft.
+Le Bâton Éditeur se fabrique à la table de craft :
 
-![ ](images/eas/craftediteur.png)
+![Recette du Bâton Éditeur](/images/eas/craftediteur.png)
 
----
-### Utilisation du Bâton Éditeur 
----
-Avec votre bâton éditeur en main, cliquez droit sur le petit carré lumineux pour sélectionner le porte-armure.
+## Utiliser le Bâton Éditeur
 
-![ |300](images/eas/selectioneas.png)
+Tiens ton Bâton Éditeur en main, puis suis ces étapes.
 
-Une fois sélectionné, des barres virtuelles apparaissent au niveau des bras, des jambes, de la tête, du corps et encore le petit carré lumineux au milieu du porte-armure. Vous pouvez sélectionner une de ces parties en mettant votre curseur sur une des barres et faire un clic-droit.
+### 1. Sélectionner le porte-armure
 
-![ |300](images/eas/selectionbone.png)
+Fais un **clic droit** sur le petit carré lumineux pour sélectionner le porte-armure.
 
-De nouvelles barres apparaissent correspondant aux axes. Vous pouvez déplacer le porte-armure via ces axes en visant l'une de ces barres virtuelle puis en faisant un clic-droit.
+![Sélection du porte-armure](/images/eas/selectioneas.png)
 
-Le déplacement se fait en bougeant votre curseur. Petite astuce, en s'accroupissant, le déplacement sera plus précis.   
+### 2. Choisir une partie à modifier
 
-Pour valider la position du porte-armure, faites un clic droit, si vous souhaitez annuler faites un clic gauche.  
+Une fois le porte-armure sélectionné, des **barres virtuelles** apparaissent au niveau :
 
-Vous pouvez également bouger le porte-armure complet en faisant clic-droit sur le carré lumineux central.
+- des bras
+- des jambes
+- de la tête
+- du corps
+- du petit carré lumineux au milieu du porte-armure
 
-![ ](images/eas/axeseas.png)
+Pour choisir une partie, vise l'une de ces barres avec ton curseur et fais un **clic droit**.
 
-Dans l'interface virtuelle de la photo de sélection des membres, vous pouvez sélectionner, avec le clic gauche, le petit carré lumineux pour appliquer des options à ce porte-armure. Les options possibles sont :
-- Mettre un nom
+![Sélection d'une partie du porte-armure](/images/eas/selectionbone.png)
 
-Vous pouvez ajoutez des couleurs en mettant entre "<>" les couleurs suivantes :
-_black, dark_blue, dark_green, dark_aqua, dark_red, dark_purple, gold, gray, dark_gray, blue, green, aqua, red, light_purple, yellow, ou white_. Vous pouvez mettre aussi des couleurs hexadecimale en ajoutant un #avant le code hexadecimale.   Exemple : _<#FF7676>Bonjour !_
+### 3. Déplacer le porte-armure
 
-Il se peut que le nom que vous avez ajouté n'apparait pas. Pour resoudre ce problème selectionner le porte armure et faite la commande   ``/eas name visible true``  
+De nouvelles barres apparaissent : ce sont les **axes**. Vise l'une d'elles et fais un **clic droit**, puis **bouge ton curseur** pour déplacer la partie.
 
-- Rendre invisible le porte-armure
-- Ajouter des bras au porte-armure
-- Désactiver la gravité du porte-armure
-- Les équipements ne peuvent être retirés que via l'éditeur
-- Enlever la base du porte-armure
-- Réduire la taille du porte-armure
+| Action | Effet |
+|---|---|
+| Clic droit | Valide la position |
+| Clic gauche | Annule le déplacement |
+| Clic droit sur le carré lumineux central | Déplace le porte-armure **en entier** |
 
-Vous pouvez copier les paramètres d'un porte armure en le selectionnant avec l'éditeur et en entrant la commande suivante : **/eas copy**
+> **💡 Astuce :** accroupis-toi pour un déplacement plus précis.
 
-Pour annuler la copie des paramètres, utiliser la commande suivante : ``/eas clipboard clear``
+![Les axes de déplacement](/images/eas/axeseas.png)
 
-![ ](images/eas/configeas.png)
+## Les options du porte-armure
 
----
-### Idée d'utilisation décoration avec l'éditeur
----
-Voici quelques exemples simples de ce qu'on peut créer avec cet outil.
+Dans l'interface virtuelle, fais un **clic gauche** sur le petit carré lumineux pour ouvrir les options. Tu peux :
 
-![ |300](images/eas/exempleportearmure.png)
-![ ](images/eas/sapinportearmure.png)
+| Option | Effet |
+|---|---|
+| Mettre un nom | Donne un nom au porte-armure (couleurs possibles, voir ci-dessous) |
+| Rendre invisible | Cache le porte-armure |
+| Ajouter des bras | Ajoute des bras au porte-armure |
+| Désactiver la gravité | Le porte-armure flotte |
+| Verrouiller l'équipement | Les équipements ne peuvent être retirés que via l'éditeur |
+| Enlever la base | Supprime la base du porte-armure |
+| Réduire la taille | Rend le porte-armure plus petit |
+
+![Les options du porte-armure](/images/eas/configeas.png)
+
+### Mettre des couleurs dans un nom
+
+Entoure le nom de la couleur avec `<` et `>`. Couleurs disponibles :
+
+| | | | |
+|---|---|---|---|
+| `black` | `dark_blue` | `dark_green` | `dark_aqua` |
+| `dark_red` | `dark_purple` | `gold` | `gray` |
+| `dark_gray` | `blue` | `green` | `aqua` |
+| `red` | `light_purple` | `yellow` | `white` |
+
+Tu peux aussi utiliser une **couleur hexadécimale** en ajoutant un `#` avant le code.
+
+Exemple : `<#FF7676>Bonjour !`
+
+> **⚠️ Le nom n'apparaît pas ?** Sélectionne le porte-armure, puis tape la commande `/eas name visible true`.
+
+## Idées de décoration
+
+Voici quelques exemples simples de ce qu'on peut créer avec cet outil :
+
+![Exemple de décoration avec des porte-armures](/images/eas/exempleportearmure.png)
+
+![Sapin fait avec des porte-armures](/images/eas/sapinportearmure.png)
+
+## Pages liées
+
+- [Les Protections](/bolt/) : les porte-armures peuvent être protégés avec `/lock`
+- [Monde Créatif](/creative/) : un endroit idéal pour s'entraîner
