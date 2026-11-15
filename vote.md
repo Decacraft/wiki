@@ -2,7 +2,7 @@
 icon: star
 title: Vote et Vote Party
 description: "Vote pour DecaCraft et gagne des récompenses : points de vote, clefs de vote pour les Mystery Box, classement des meilleurs voteurs et Vote Party avec 5000 Ð pour tous."
-order: 49
+order: 288
 ---
 
 # Vote et Vote Party
