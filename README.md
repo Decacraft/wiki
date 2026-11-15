@@ -5,7 +5,7 @@ description: Le wiki officiel de DecaCraft, serveur Minecraft freebuild Play2Win
 order: 10000
 ---
 
-# 🧭 Bienvenue sur le Wiki de DecaCraft !
+# Bienvenue sur le Wiki de DecaCraft !
 
 **DecaCraft** est un serveur Minecraft **freebuild en Play2Win** : ici, tout se gagne en jouant. Plus tu joues, plus tu progresses, et ton argent réel n'achète aucune puissance.
 
@@ -22,7 +22,7 @@ Ce wiki regroupe tout ce qu'il faut savoir pour bien débuter et profiter du ser
 
 ---
 
-## 🚀 Pour bien débuter
+## Pour bien débuter
 
 1. **Lis le [règlement](/rules/)**. Il est court et évite bien des soucis.
 2. **Rejoins le Discord** : c'est là que tu trouveras le staff, l'aide et les tickets.
@@ -33,7 +33,7 @@ Ce wiki regroupe tout ce qu'il faut savoir pour bien débuter et profiter du ser
 
 ---
 
-## 📚 Les pages du wiki
+## Les pages du wiki
 
 | Page | Ce que tu y trouveras |
 |---|---|
