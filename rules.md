@@ -1,62 +1,79 @@
 ---
+icon: law
 title: Règlement
-icon: book
+description: "Le règlement de DecaCraft : tchat, triche, grief, téléportation, ressources, redstone, constructions, PVP, économie et sanctions."
 order: 500
 ---
+
 # Règlement
 
-### Article 1 : Le Tchat
+En jouant sur DecaCraft, tu acceptes les règles ci-dessous. Elles sont là pour que tout le monde passe un bon moment.
+
+> **ℹ️ Dernière mise à jour :** `15/11/2026`. Le staff peut faire évoluer le règlement. En cas de doute, demande à un membre du staff.
+
+## Article 1 : Le tchat
 
 - Il est interdit de spammer.
-- Toutes insultes, manque de respect ou propos racistes seront punis, merci de rester courtois.
-- Aucune publicité n’est tolérée.
-- Merci de faire attention à votre orthographe.
+- Toute insulte, tout manque de respect ou propos raciste sera puni. Reste courtois.
+- Aucune publicité n'est tolérée.
+- Fais attention à ton orthographe.
 - Il est interdit de divulguer le code caché aux nouveaux venus.
-- Vos opinions politiques sont personnelles, merci de les garder pour vous !
+- Tes opinions politiques sont personnelles : garde-les pour toi !
 
+## Article 2 : Les cheats et mods
 
-### Article #2 : Les Cheats et Mods
+- Aucun mod de triche n'est autorisé ici. Certains mods sont toutefois tolérés, tant qu'ils ne donnent **aucun avantage** sur les autres joueurs. Pour savoir si c'est le cas, demande à un membre du staff.
+- Les mods de schématiques (plans de construction) sont tolérés, mais l'utilisation de la **pose automatique** est considérée comme de la triche.
+- Si tu suspectes un joueur de tricher, signale-le à un membre du staff.
+- Les doubles comptes sont interdits. En cas de doute, le staff peut te demander une vérification vocale.
 
-- Aucun mod de triche n’est autorisé ici. Cependant certains mods sont tolérés tant qu'ils ne permettent pas d’avoir un avantage sur les autres joueurs (pour savoir si c’est le cas merci de demander à un membre du staff).
-- Les mods de schéma sont tolérées cependant l’utilisation pose automatique est considérée comme triche.
-- Si vous suspectez un joueur de triche, merci de le signaler à un membre du staff.
-- Les doubles comptes sont interdits (en cas de doute le staff peut vous demander une vérification vocale).
+## Article 3 : Le grief
 
-### Article #3 - Le Grief
+- Le grief est **strictement interdit** : casser ou voler des items ou des blocs d'un autre joueur sans son accord.
+- Un plugin de verrouillage des coffres est actif sur le serveur et permet d'éviter le vol d'items (voir [Les Protections](/bolt/)). En cas de vol ou de grief, informe un membre du staff, via un **ticket sur le Discord** s'il est absent. Il fera le nécessaire pour te rembourser ou faire un rollback.
+- Si tu veux construire sur la map, laisse un espace d'**au moins 300 blocs** entre toi et ton voisin : la map est grande !
 
-- Il est strictement interdit de grief (casser ou voler des items/blocs d’un autre joueur sans accord).
-- De plus un plugin pour verrouiller les coffres est actif sur le serveur et permet d’éviter le vol d’item, en cas de vol/grief veuillez en informer un membre du staff (via un ticket sur Discord si absent) et il fera le nécessaire pour vous rembourser/rollback.
-- Si vous voulez construire sur la map, merci de laisser un espace de minimum 300 blocs entre vous et votre voisin, la map est grande !
+## Article 4 : La téléportation
 
-### Article #4 - La Téléportation
+- À partir d'un certain grade, il est possible de se téléporter directement à un autre joueur (voir [Les Grades](/grades/)). N'abuse pas de ce pouvoir, sinon tu seras sanctionné.
+- Il est **strictement interdit** de se téléporter sur un membre du staff.
 
-- À partir d'un certain grade sur ce serveur, il est possible de se téléporter directement à un autre joueur. N'abusez pas de ce pouvoir, sinon vous serez sanctionné.
-- Il est strictement interdit de se tp sur un membre du staff.
+## Article 5 : Les ressources/maps
 
-### Article #5 - Les Ressources/Maps
-
-- Une map ressources de chaque dimension est disponible. Il est donc préférable de l’utiliser pour éviter de trop puiser sur la map principale.
+- Une map ressources existe pour chaque dimension (voir [Les Mondes](/world/)). Il est préférable de l'utiliser pour éviter de trop puiser dans la map principale.
 - Il est interdit de détruire des biomes ou des monuments générés dans la map principale.
-- Les maps ressources peut être reset, il est donc indispensable de ne rien y construire. Toute perte de stuff ne sera pas remboursée.
-- Le toit du nether est une zone interdite à la construction.
-- Les tours/ponts sans build destiné sont interdits dans les mondes de construction.
-- Sur le serveur chaque map a une limite, il est donc interdit de la franchir.
+- Les maps ressources peuvent être réinitialisées : ne construis **rien** dedans. Toute perte de stuff ne sera pas remboursée.
+- Le toit du Nether est une zone interdite à la construction.
+- Les tours et les ponts sans build destiné sont interdits dans les mondes de construction.
+- Chaque map a une limite qu'il est interdit de franchir.
 
-### Article #6 - Les Systèmes Redstone
+## Article 6 : Les systèmes redstone
 
-- Tous les systèmes de redstone sont autorisés tant que ceux-ci ne nuisent pas aux performances du serveur. Si un membre du staff juge qu'un système nuit aux performances du serveur, il pourra vous demander de la modifier. Sinon, il sera supprimé.
+- Tous les systèmes de redstone sont autorisés tant qu'ils ne nuisent pas aux performances du serveur.
+- Si un membre du staff juge qu'un système nuit aux performances, il pourra te demander de le modifier. Sinon, il sera supprimé.
 
-### Article #7 - Les Constructions
+## Article 7 : Les constructions
 
-- Vous êtes libres de construire ce que vous voulez. Attention toutefois de ne pas abuser de certains build (obscène, etc…).
+- Tu es libre de construire ce que tu veux. Attention toutefois certains builds ne sont pas tolérés (obscènes, provocants, ect.).
 
-### Article #8 - Le PVP
+## Article 8 : Le PVP
 
-- Même si le pvp reste inactif sur la plupart des maps, il est toujours possible de tuer à l'aide de plusieurs manières. Il est donc interdit de tuer sur les maps concernées. Si des joueurs décident de pvp sur un monde approprié, il en va de leur responsabilité pour leur stuff (aucun remboursement).
+- Même si le PVP reste inactif sur la plupart des maps, il est possible de tuer de plusieurs manières. Il est donc **interdit de tuer** sans son consentement.
+- Si des joueurs décident de se battre `/pvp`, ils sont responsables de leur stuff : **aucun remboursement**.
 
-### Article #9 - L'Économie
+## Article 9 : L'économie
 
-- Les arnaques sont autorisées mais il ne faut pas en abuser.
-- En cas de triche sur l'économie le joueur se verra supprimer toute sa fortune.
-- Si vous repérez un soucis en rapport avec la monnaie merci d'en faire part au staff.
-- Vous êtes le seul et unique responsable de votre argent.
+- Les arnaques sont autorisées, mais il ne faut pas en abuser.
+- En cas de triche sur l'économie, le joueur perd **toute sa fortune**.
+- Si tu repères un souci en rapport avec la monnaie, préviens le staff.
+- Tu es le seul et unique responsable de ton argent.
+
+## Sanctions
+
+**Une sanction te semble injuste ?** Contacte le staff via un ticket sur le Discord.
+
+## Pages liées
+
+- [Les Protections](/bolt/) : verrouiller tes coffres contre le vol
+- [Les Mondes](/world/) : mondes de construction et de ressources
+- [L'économie](/economy/) : monnaie, market et prix
