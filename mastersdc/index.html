@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.847146433055">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.848052775923">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -44,11 +44,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../favicon.png" />
-    <link href="../resources/css/retype.css?v=4.6.0.847146433055" rel="stylesheet">
+    <link href="../resources/css/retype.css?v=4.6.0.848052775923" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=4.6.0.847146433055" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/config.js?v=4.6.0.848052775923" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=4.6.0.847146433055" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=4.6.0.848052775923" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -171,7 +171,7 @@ Pour créer ce coffre alpha, vous devez le craft avec la recette suivante :</p>
 <hr>
 <p>Les coffres Bêta sont les coffres de sortie, ceux où les items seront triés.
 Ces coffres peuvent contenir un ou plusieurs filtres de tri.
-Pour créer un coffre Bêta, deux solutions s’offrent à vous :</p>
+Pour créer un coffre Bêta, trois solutions s’offrent à vous :</p>
 <ol>
 <li>
 <p>Placez un coffre simple ou double puis executez cette commande:
@@ -187,13 +187,21 @@ Faites ensuite un clic droit sur le coffre.</p>
 Prenez en main l’item que vous souhaitez trier et faites un clic droit sur le coffre avec cet item.
 Si vous ne tenez aucun item au moment du clic, ce coffre aura un filtre “Default”, ce qui aura pour conséquence d’envoyer tous les items non triés dans ce coffre.</p>
 </li>
+<li>
+<p>Placez un coffre simple ou double, puis exécutez cette commande :
+<code translate="no" v-pre>/sdc create beta &lt;pseudo&gt; @auto</code>
+Créer un coffre beta avec comme filtre, tous les objets se trouvant à l&#x27;intérieur du coffre.</p>
+</li>
 </ol>
 <h3 id="ajouter-un-filtre">Ajouter un filtre</h3>
 <hr>
-<p>Vous pouvez ajouter un filtre à un coffre Bêta possédant déjà un ou plusieurs filtres.
-Pour cela, exécutez cette commande :
+<p>Vous pouvez ajouter un filtre à un coffre Bêta possédant déjà un ou plusieurs filtres. Deux possibilités s&#x27;offrent à vous.</p>
+<p>Pour cela, exécutez cette commande :
 <code translate="no" v-pre>/sdc addFilter &lt;item&gt;</code><br />
 Vous pouvez aussi ne pas préciser d’item et faire comme lors de la création du coffre Bêta, en cliquant sur le coffre avec l’item souhaité dans votre main.</p>
+<p>ou,
+<code translate="no" v-pre>/sdc autoFilter</code>
+Prend le contenu de votre coffre pour l&#x27;ajouter aux filtres.</p>
 <h3 id="supprimer-un-filtre-ou-un-coffre">Supprimer un filtre ou un coffre</h3>
 <hr>
 <p>Vous pouvez supprimer tous les filtres d’un coffre Bêta avec une seule commande :
