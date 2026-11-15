@@ -1,120 +1,188 @@
 ---
+icon: archive
 title: Master SDC
-icon: book
-order: 270
+description: Master SDC trie tes items automatiquement : dépose-les dans le coffre Alpha et ils partent dans le coffre Bêta correspondant à leur filtre.
+order: 40
 ---
 
 # Master SDC
 
-Ce plugin vous permet de trier vos items simplement. 
-Chaque objet placé dans le coffre **Alpha** est envoyé vers le coffre **Bêta** correspondant, selon les filtres que vous avez définis.
+**Master SDC** (Salle Des Coffres) trie tes items à ta place. Tu déposes tout dans un seul coffre, l'**Alpha**, et chaque item part automatiquement dans le coffre **Bêta** dont le filtre correspond.
+
+```
+ Items déposés  →  [ Coffre ALPHA ]  →  Bêta « Cobblestone »
+                                      →  Bêta « Minerais »
+                                      →  Bêta « Default » (le reste)
+```
+
+Bon à savoir
+Chaque joueur a **une seule salle des coffres**. Elle peut contenir plusieurs coffres Alpha (selon ton niveau) et de nombreux coffres Bêta (selon ton niveau et ton [grade](/grades/)).
+
 
 ---
 
-### Le Coffre “Alpha” (Coffre d’Entrée)
+## 🚀 Démarrage rapide
+
+1. Fabrique un **coffre Alpha** ([recette](#le-coffre-alpha)) et pose-le.
+2. Pose un coffre simple ou double pour ton premier **Bêta**, dans le rayon d'action de l'Alpha (250 blocs).
+3. Tape `/sdc create beta <pseudo> COBBLESTONE`, puis fais un **clic droit** sur ce coffre.
+4. Dépose de la cobblestone dans l'Alpha : elle part toute seule dans le Bêta.
+
+
+`<pseudo>` : `[À COMPLÉTER : ton pseudo ou celui du propriétaire de la salle]`.
+Les items s'écrivent avec leur **identifiant anglais en majuscules** (`COBBLESTONE`, `IRON_INGOT`, `OAK_LOG`…).
+
+
 ---
-Le coffre **Alpha** est le point de départ de votre salle des coffres.  
-C’est dans ce coffre que vous déposerez les objets à trier.
-Pour créer ce coffre alpha, vous devez le craft avec la recette suivante :  
 
-![ ](images/mastersdc/craftcoffrealpha.png)
- 
-Plusieurs coffres peuvent être créés cependant un niveau de joueur est requis.
+## 📊 Les limites
 
-### Le Coffre “Beta” (Coffre de Sortie)
+### Coffres Alpha
+
+| Coffre Alpha | Niveau requis |
+|---|---|
+| 1er | 1 |
+| 2e | 14 |
+| 3e | 22 |
+| 4e | 31 |
+| 5e | 41 |
+| 6e (maximum) | 50 |
+
+### Coffres Bêta
+
+| Joueur | VIP | Master |
+|---|---|---|
+| 40 coffres par niveau | 500 coffres d'emblée | 2000 coffres (maximum) |
+
+Le rayon d'action d'un coffre Alpha est de **250 blocs**.
+
 ---
-Les coffres Bêta sont les coffres de sortie, ceux où les items seront triés.
-Ces coffres peuvent contenir un ou plusieurs filtres de tri.
-Pour créer un coffre Bêta, trois solutions s’offrent à vous :
-1. Placez un coffre simple ou double puis executez cette commande:
-Placez un coffre simple ou double, puis exécutez cette commande :
-``/sdc create beta <pseudo> <item>``
-(Possibilité d’ajouter plusieurs filtres en même temps en les séparant par un espace.)
-Exemple : _/sdc create beta pseudo COBBLESTONE COBBLESTONE_SLAB_  ->
-Faites ensuite un clic droit sur le coffre.
 
-2. Placez un coffre simple ou double, puis exécutez cette commande :
-``/sdc create beta <pseudo>``
-Prenez en main l’item que vous souhaitez trier et faites un clic droit sur le coffre avec cet item.
-Si vous ne tenez aucun item au moment du clic, ce coffre aura un filtre “Default”, ce qui aura pour conséquence d’envoyer tous les items non triés dans ce coffre.
+## Le coffre Alpha
 
-3. Placez un coffre simple ou double, puis exécutez cette commande :
-``/sdc create beta <pseudo> @auto``
-Créer un coffre beta avec comme filtre, tous les objets se trouvant à l'intérieur du coffre.
+Le coffre **Alpha** est le point d'entrée de ta salle des coffres : c'est celui dans lequel tu déposes les items à trier. Pour le fabriquer, utilise cette recette :
+
+![Recette du coffre Alpha](/images/mastersdc/craftcoffrealpha.png)
+
+
+---
+
+## Les coffres Bêta
+
+Les coffres **Bêta** sont les coffres de sortie : c'est là que les items sont triés. Un coffre Bêta peut avoir un ou plusieurs filtres. Pose d'abord un coffre simple ou double, puis choisis une méthode :
+
+Avec les items dans la commande
+
+```
+/sdc create beta <pseudo> <item> 
+```
+
+Sépare les items par un espace pour mettre plusieurs filtres à la fois, puis fais un **clic droit** sur le coffre.
+
+Exemple :
+
+```
+/sdc create beta Steve COBBLESTONE COBBLESTONE_SLAB
+```
+
+Avec l'item en main
+
+```
+/sdc create beta <pseudo>
+```
+
+Tiens en main l'item à trier, puis fais un **clic droit** sur le coffre.
+
+Coffre « Default »
+Si tu ne tiens aucun item lors du clic, le coffre devient un coffre **Default** : il reçoit tous les items qui ne correspondent à aucun autre filtre.
+
+
+Avec le contenu du coffre
+
+```
+/sdc create beta <pseudo> @auto
+```
+
+Tous les items **déjà présents dans le coffre** deviennent ses filtres.
+
+
+---
+
+## Gérer les filtres
 
 ### Ajouter un filtre
----
-Vous pouvez ajouter un filtre à un coffre Bêta possédant déjà un ou plusieurs filtres. Deux possibilités s'offrent à vous.
 
-Pour cela, exécutez cette commande :
-``/sdc addFilter <item>``  
-Vous pouvez aussi ne pas préciser d’item et faire comme lors de la création du coffre Bêta, en cliquant sur le coffre avec l’item souhaité dans votre main.
+Tu peux ajouter un filtre à un coffre Bêta qui en a déjà, de trois façons :
 
-ou,
-``/sdc autoFilter``
-Prend le contenu de votre coffre pour l'ajouter aux filtres.
+| Méthode | Comment faire |
+|---|---|
+| Avec un item | `/sdc addFilter <item>` |
+| Avec l'item en main | `/sdc addFilter`, puis clic droit sur le coffre avec l'item |
+| Avec le contenu du coffre | `/sdc autoFilter` ajoute tous les items du coffre aux filtres |
 
-### Supprimer un filtre ou un coffre
----
-Vous pouvez supprimer tous les filtres d’un coffre Bêta avec une seule commande :
-``/sdc remove``
+### Supprimer un filtre
 
-Vous pouvez supprimer un seul filtre appliqué à un coffre Bêta avec cette commande :
-``/sdc removeFilter <item>``
+| Commande | Effet |
+|---|---|
+| `/sdc removeFilter <item>` | Retire **un seul** filtre du coffre Bêta |
+| `/sdc remove` | Retire **tous** les filtres du coffre Bêta `[À COMPLÉTER : le coffre redevient-il un coffre normal ?]` |
 
-À noter : vous ne pouvez pas supprimer votre coffre Alpha tant que tous les coffres Bêta ne sont pas supprimés.
-
-### Ajouter ou supprimer un membre
----
-Vous pouvez ajouter ou supprimer un membre de votre salle des coffres.
-Celui-ci pourra modifier votre salle des coffres.
-
-Pour ajouter un membre, exécutez cette commande :
-``/sdc share add <pseudo>``  
-Pour supprimer un membre, exécutez cette commande :
-``/sdc share remove <pseudo>``
-
-### Foire aux questions
 ---
 
-- **Est-ce que je peux avoir plusieurs salles des coffres ?**
-Non, vous pouvez créer une seule salle des coffres, car une salle des coffres est disponible par joueur.
+## Partager ta salle des coffres
 
-- **Quel est le rayon d'action du coffre alpha ?**
-Le coffre Alpha peut trier des items jusqu’à 250 blocs autour de lui.
+Tu peux donner accès à ta salle des coffres à un autre joueur. Il pourra la modifier.
 
-- **Il y a t'il une limite de coffre beta ?**
-Oui, le nombre de coffres Bêta est limité.
-Vous débloquez 20 coffres Bêta par niveau de joueur.
-Le grade VIP permet de débloquer 250 coffres directement, et le grade Master permet d’en avoir 1000.
-C’est la limite maximale.
+| Commande | Effet |
+|---|---|
+| `/sdc share add <pseudo>` | Ajoute un membre |
+| `/sdc share remove <pseudo>` | Retire un membre |
 
-- **Puis-je supprimer mon coffre Alpha ?**
-Non, pas tant qu’il reste des coffres Bêta associés à la même salle des coffres.
+---
 
-- **Puis-je avoir plusieurs coffres avec les même filter ?**
-Oui, le coffre Alpha enverra les items en priorité vers le premier coffre créé.
-Lorsque celui-ci sera plein, il enverra les items vers le second.
+## Retrouver les infos d'un coffre
 
-- **Puis-je trier des items avec des noms personnalisés (via anvil ou plugin) ?**
-Oui, le tri se fait selon l’ID de l’item, donc un papier renommé ira tout de même dans le coffre à papier.
+Tape `/sdc info`, puis fais un **clic droit** sur un coffre.
 
-- **Puis-je retrouver ces informations en jeu ?**
-Oui, grâce à la commande suivante :
-``/sdc help``
+| Type de coffre | Informations affichées |
+|---|---|
+| **Alpha** | Le propriétaire et le nom de la salle des coffres |
+| **Bêta** | Son filtre, l'emplacement du coffre Alpha et le propriétaire de la salle |
 
-- **Puis-je connaitre les filtres et information d'un coffre de la salle des coffres ?**
-Oui, pour connaitres les informations lié à un coffre beta vous pouvez executez la commande suivante:
-``/sdc info`` suivi d'un clic-droit.
+Toutes ces commandes sont aussi disponibles en jeu avec `/sdc help`.
 
-  Vous retrouvez les informations suivante sur les coffres alpha:
-  - À qui appartient la salle des coffres
-  - Le nom de la salle des coffres  
+---
 
-  Vous retrouvez les informations suivante sur les coffres beta:
-  - Le filtre du coffre 
-  - Ou se situe le coffre alpha
-  - À qui appartient la salle des coffres
+## ❓ Foire aux questions
 
-- **Combien de coffre alpha je peux avoir au maximum ?**
-On peut avoir au maximum 6 coffres alpha selon son niveau. (+1 lvl 14, +1 lvl 22, +1 lvl 31, +1 lvl 41 , +1 lvl 50)
+- Puis-je avoir plusieurs salles des coffres ? 
+Non, une seule salle des coffres est disponible par joueur. En revanche, elle peut contenir jusqu'à 6 coffres Alpha (voir [les limites](#les-limites)).
+
+
+- Quel est le rayon d'action du coffre Alpha ? 
+Un coffre Alpha trie les items jusqu'à **250 blocs** autour de lui.
+
+
+- Y a-t-il une limite de coffres Bêta ? 
+Oui. Tu débloques 20 coffres Bêta par niveau de joueur. Le grade VIP en donne 250 d'emblée, le grade Master 1000, qui est le maximum.
+
+
+- Puis-je supprimer mon coffre Alpha ? 
+Non, pas tant qu'il reste des coffres Bêta dans la même salle des coffres : supprime d'abord tous les Bêta.
+
+
+- Puis-je avoir plusieurs coffres avec les mêmes filtres ? 
+Oui. L'Alpha envoie les items en priorité vers le premier coffre créé. Quand celui-ci est plein, il envoie les items vers le second.
+
+
+- Les items renommés sont-ils triés ? 
+Oui. Le tri se fait selon l'identifiant de l'item, donc un papier renommé (à l'enclume ou via un plugin) ira quand même dans le coffre à papier.
+
+
+- Que se passe-t-il quand un coffre Bêta est plein ? 
+Quand un coffre Bêta est plein, le surplus est redirigé vers un coffre default.
+
+
+- Puis-je utiliser des entonnoirs avec l'Alpha ? 
+Oui ! Vous pouvez relier un entonnoir à un coffre alpha et les items seront bien triés automatiquement.
+
