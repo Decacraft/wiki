@@ -8,6 +8,7 @@
 - [L'économie](https://wiki.decacraft.net/economy.md): L'économie de DecaCraft : la monnaie (le Ð), les commandes, les prix de vente des minerais, le market entre joueurs et les autres moyens de gagner de l'argent.
 - [Les Mondes](https://wiki.decacraft.net/world.md): Les différents mondes de DecaCraft : construction, ressources et créatif. À quoi sert chaque monde et comment s'y repérer.
 - [Les Protections](https://wiki.decacraft.net/bolt.md): Protège tes coffres, fours, portes et autres conteneurs sur DecaCraft avec le plugin Bolt : commandes /lock, /unlock, partage avec d’autres joueurs et membres de confiance.
+- [Mystery Box](https://wiki.decacraft.net/mysterybox.md): Les Mystery Box de DecaCraft : comment obtenir des clefs, où ouvrir les box au spawn (Bazar Mystère, PNJ métiers) et quels types de box existent.
 - [Master SDC](https://wiki.decacraft.net/mastersdc.md): Master SDC trie tes items automatiquement : dépose-les dans le coffre Alpha et ils partent dans le coffre Bêta correspondant à leur filtre.
 - [Boisson et Alcool](https://wiki.decacraft.net/alcool.md): Brasser des boissons et de l’alcool sur DecaCraft : cuisson, distillation, fermentation, scellage et vente. Guide complet de la mise à jour La Beuverie.
 - [Porte-armures personnalisés](https://wiki.decacraft.net/easyarmorstand.md): Personnalise tes porte-armures avec le plugin EasyArmorStand (EAS) : bâton éditeur, déplacement, options, couleurs de nom et copie des paramètres, sans commandes.
