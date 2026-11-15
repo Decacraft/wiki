@@ -9,13 +9,13 @@
 ```
 
 Bon à savoir
-Chaque joueur a **une seule salle des coffres**. Elle peut contenir plusieurs coffres Alpha (selon ton niveau) et de nombreux coffres Bêta (selon ton niveau et ton [grade](/grades/)).
+Chaque joueur a **une seule salle des coffres**. Elle peut contenir plusieurs coffres Alpha (selon ton niveau) et de nombreux coffres Bêta (selon ton niveau ou ton grade).
 
 ---
 
 ## 🚀 Démarrage rapide
 
-1. Fabrique un **coffre Alpha** ([recette](#le-coffre-alpha)) et pose-le.
+1. Fabrique un **coffre Alpha** et pose-le.
 2. Pose un coffre simple ou double pour ton premier **Bêta**, dans le rayon d'action de l'Alpha (250 blocs).
 3. Tape `/sdc create beta <pseudo> COBBLESTONE`, puis fais un **clic droit** sur ce coffre.
 4. Dépose de la cobblestone dans l'Alpha : elle part toute seule dans le Bêta.
@@ -143,7 +143,7 @@ Toutes ces commandes sont aussi disponibles en jeu avec `/sdc help`.
 ## ❓ Foire aux questions
 
 - Puis-je avoir plusieurs salles des coffres ? 
-Non, une seule salle des coffres est disponible par joueur. En revanche, elle peut contenir jusqu'à 6 coffres Alpha (voir [les limites](#les-limites)).
+Non, une seule salle des coffres est disponible par joueur. En revanche, elle peut contenir jusqu'à 6 coffres Alpha.
 
 - Quel est le rayon d'action du coffre Alpha ? 
 Un coffre Alpha trie les items jusqu'à **250 blocs** autour de lui.
