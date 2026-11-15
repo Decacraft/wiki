@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.848063480345">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.848063869089">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -12,7 +12,7 @@
     <!-- Primary Meta Tags -->
     <title>L&#39;&#233;conomie</title>
     <meta name="title" content="L'économie">
-    <meta name="description" content="Un système d'économie est mis en place, qui te permet de montrer ta puissance ! Tu peux utiliser l'argent pour acheter divers items dans le market ou ailleurs.">
+    <meta name="description" content="L'économie de DecaCraft : la monnaie (le Ð), les commandes, les prix de vente des minerais, le market entre joueurs et les autres moyens de gagner de l'argent.">
 
     <!-- Canonical -->
     <link rel="canonical" href="https://wiki.decacraft.net/economy/">
@@ -22,7 +22,7 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://wiki.decacraft.net/economy/">
     <meta property="og:title" content="L'économie">
-    <meta property="og:description" content="Un système d'économie est mis en place, qui te permet de montrer ta puissance ! Tu peux utiliser l'argent pour acheter divers items dans le market ou ailleurs.">
+    <meta property="og:description" content="L'économie de DecaCraft : la monnaie (le Ð), les commandes, les prix de vente des minerais, le market entre joueurs et les autres moyens de gagner de l'argent.">
     <meta property="og:image" content="https://wiki.decacraft.net/images/items/coal.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
@@ -34,7 +34,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:url" content="https://wiki.decacraft.net/economy/">
     <meta name="twitter:title" content="L'économie">
-    <meta name="twitter:description" content="Un système d'économie est mis en place, qui te permet de montrer ta puissance ! Tu peux utiliser l'argent pour acheter divers items dans le market ou ailleurs.">
+    <meta name="twitter:description" content="L'économie de DecaCraft : la monnaie (le Ð), les commandes, les prix de vente des minerais, le market entre joueurs et les autres moyens de gagner de l'argent.">
     <meta name="twitter:image" content="https://wiki.decacraft.net/images/items/coal.png">
     <meta name="twitter:image:alt" content="L'économie">
 
@@ -44,11 +44,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../favicon.png" />
-    <link href="../resources/css/retype.css?v=4.6.0.848063480345" rel="stylesheet">
+    <link href="../resources/css/retype.css?v=4.6.0.848063869089" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=4.6.0.848063480345" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/config.js?v=4.6.0.848063869089" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=4.6.0.848063480345" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=4.6.0.848063869089" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -154,46 +154,215 @@
 
                 <!-- Page content  -->
 <h1 id="léconomie">L&#x27;économie</h1>
-<hr>
-<p>Un système d&#x27;économie est mis en place, qui te permet de montrer ta puissance ! Tu peux utiliser l&#x27;argent pour acheter divers items dans le market ou ailleurs. Il existe plusieurs moyens de se faire de l&#x27;argent, à toi de les découvrir...
-La devise economique du serveur est le <strong>Ð</strong></p>
-<h3 id="les-commandes">Les commandes</h3>
-<hr>
+<div id="retype-page-description" class="description-display text-description font-description leading-description mb-description-margin-bottom mt-description-margin-top tracking-description text-transform-description">L'économie de DecaCraft : la monnaie (le Ð), les commandes, les prix de vente des minerais, le market entre joueurs et les autres moyens de gagner de l'argent.</div>
+<p>Un système d&#x27;économie est en place sur le serveur : il te permet de <strong>montrer ta puissance</strong> ! Tu peux utiliser ton argent pour acheter divers items dans le <doc-anchor-trigger to="#le-market">market</doc-anchor-trigger> ou ailleurs.</p>
+<p>Il existe plusieurs moyens de se faire de l&#x27;argent, à toi de les découvrir... La monnaie du serveur est le <strong>Ð</strong>.</p>
+<h2 id="les-commandes">Les commandes</h2>
+<retype-table copy-text="| Commande | Effet |
+|---|---|
+| `/money` | Voir ton solde actuel |
+| `/baltop` | Voir le classement des joueurs les plus riches |
+| `/sell hand` | Vendre ce que tu as dans la main |
+| `/sell inventory` | Vendre tout ce qui est vendable dans ton inventaire |
+| `/pay [joueur] [montant]` | Donner de l'argent à un autre joueur |">
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th>Commande</th>
+<th>Effet</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code translate="no" v-pre>/money</code></td>
+<td>Voir ton solde actuel</td>
+</tr>
+<tr>
+<td><code translate="no" v-pre>/baltop</code></td>
+<td>Voir le classement des joueurs les plus riches</td>
+</tr>
+<tr>
+<td><code translate="no" v-pre>/sell hand</code></td>
+<td>Vendre ce que tu as dans la main</td>
+</tr>
+<tr>
+<td><code translate="no" v-pre>/sell inventory</code></td>
+<td>Vendre tout ce qui est vendable dans ton inventaire</td>
+</tr>
+<tr>
+<td><code translate="no" v-pre>/pay [joueur] [montant]</code></td>
+<td>Donner de l&#x27;argent à un autre joueur</td>
+</tr>
+</tbody>
+</table>
+</div>
+</retype-table>
+<h2 id="le-codex">Le codex</h2>
+<p>Une des principales façons de gagner de l&#x27;argent est de <strong>vendre des minerais</strong>. Voici la liste des prix de vente.</p>
+<retype-table copy-text="| Item | Prix de vente | Prix du bloc (×9) |
+|---|---:|---:|
+| ![Charbon](/images/items/coal.png) Charbon | 4 Ð | 36 Ð |
+| ![Redstone](/images/items/redstone.png) Redstone | 3 Ð | 27 Ð |
+| ![Lapis-lazuli](/images/items/lapis_lazuli.png) Lapis-lazuli | 8 Ð | 72 Ð |
+| ![Cuivre brut](/images/items/raw_copper.png) Cuivre brut | 4 Ð | 36 Ð |
+| ![Lingot de cuivre](/images/items/copper_ingot.png) Lingot de cuivre | 2 Ð | 18 Ð |
+| ![Fer brut](/images/items/raw_iron.png) Fer brut | 7 Ð | 63 Ð |
+| ![Lingot de fer](/images/items/iron_ingot.png) Lingot de fer | 3 Ð | 27 Ð |
+| ![Or brut](/images/items/raw_gold.png) Or brut | 25 Ð | 225 Ð |
+| ![Lingot d'or](/images/items/gold_ingot.png) Lingot d'or | 5 Ð | 45 Ð |
+| ![Émeraude](/images/items/emerald.png) Émeraude | 20 Ð | 180 Ð |
+| ![Diamant](/images/items/diamond.png) Diamant | 120 Ð | 1 080 Ð |
+| ![Lingot de netherite](/images/items/netherite_ingot.png) Lingot de netherite | 1 000 Ð | 9 000 Ð |">
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th>Item</th>
+<th style="text-align: right;">Prix de vente</th>
+<th style="text-align: right;">Prix du bloc (×9)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="../images/items/coal.png" alt="Charbon" class="max-w-full h-auto" width="16" height="16" /> Charbon</td>
+<td style="text-align: right;">4 Ð</td>
+<td style="text-align: right;">36 Ð</td>
+</tr>
+<tr>
+<td><img src="../images/items/redstone.png" alt="Redstone" class="max-w-full h-auto" width="16" height="16" /> Redstone</td>
+<td style="text-align: right;">3 Ð</td>
+<td style="text-align: right;">27 Ð</td>
+</tr>
+<tr>
+<td><img src="../images/items/lapis_lazuli.png" alt="Lapis-lazuli" class="max-w-full h-auto" width="16" height="16" /> Lapis-lazuli</td>
+<td style="text-align: right;">8 Ð</td>
+<td style="text-align: right;">72 Ð</td>
+</tr>
+<tr>
+<td><img src="../images/items/raw_copper.png" alt="Cuivre brut" class="max-w-full h-auto" width="16" height="16" /> Cuivre brut</td>
+<td style="text-align: right;">4 Ð</td>
+<td style="text-align: right;">36 Ð</td>
+</tr>
+<tr>
+<td><img src="../images/items/copper_ingot.png" alt="Lingot de cuivre" class="max-w-full h-auto" width="16" height="16" /> Lingot de cuivre</td>
+<td style="text-align: right;">2 Ð</td>
+<td style="text-align: right;">18 Ð</td>
+</tr>
+<tr>
+<td><img src="../images/items/raw_iron.png" alt="Fer brut" class="max-w-full h-auto" width="16" height="16" /> Fer brut</td>
+<td style="text-align: right;">7 Ð</td>
+<td style="text-align: right;">63 Ð</td>
+</tr>
+<tr>
+<td><img src="../images/items/iron_ingot.png" alt="Lingot de fer" class="max-w-full h-auto" width="16" height="16" /> Lingot de fer</td>
+<td style="text-align: right;">3 Ð</td>
+<td style="text-align: right;">27 Ð</td>
+</tr>
+<tr>
+<td><img src="../images/items/raw_gold.png" alt="Or brut" class="max-w-full h-auto" width="16" height="16" /> Or brut</td>
+<td style="text-align: right;">25 Ð</td>
+<td style="text-align: right;">225 Ð</td>
+</tr>
+<tr>
+<td><img src="../images/items/gold_ingot.png" alt="Lingot d'or" class="max-w-full h-auto" width="16" height="16" /> Lingot d&#x27;or</td>
+<td style="text-align: right;">5 Ð</td>
+<td style="text-align: right;">45 Ð</td>
+</tr>
+<tr>
+<td><img src="../images/items/emerald.png" alt="Émeraude" class="max-w-full h-auto" width="16" height="16" /> Émeraude</td>
+<td style="text-align: right;">20 Ð</td>
+<td style="text-align: right;">180 Ð</td>
+</tr>
+<tr>
+<td><img src="../images/items/diamond.png" alt="Diamant" class="max-w-full h-auto" width="16" height="16" /> Diamant</td>
+<td style="text-align: right;">120 Ð</td>
+<td style="text-align: right;">1 080 Ð</td>
+</tr>
+<tr>
+<td><img src="../images/items/netherite_ingot.png" alt="Lingot de netherite" class="max-w-full h-auto" width="16" height="16" /> Lingot de netherite</td>
+<td style="text-align: right;">1 000 Ð</td>
+<td style="text-align: right;">9 000 Ð</td>
+</tr>
+</tbody>
+</table>
+</div>
+</retype-table>
+<p>Les <strong>blocs</strong> liés à ces minerais sont également vendables : il suffit de multiplier le prix par 9 pour obtenir celui du bloc.</p>
+<blockquote>
+<p><strong><span class="docs-emoji">&#x1F4A1;</span> Astuce :</strong> le cuivre, le fer et l&#x27;or <strong>bruts</strong> se vendent plus cher que les lingots. Inutile de les fondre avant de vendre.</p>
+</blockquote>
+<h2 id="le-market">Le market</h2>
+<p>Pour commercer avec les autres joueurs, un <strong>market</strong> est disponible. Tu peux y vendre n&#x27;importe quel item.</p>
+<retype-table copy-text="| Commande | Effet |
+|---|---|
+| `/market` | Ouvre le market |
+| `/market add [prix]` | Met en vente l'item que tu as en main |">
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th>Commande</th>
+<th>Effet</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code translate="no" v-pre>/market</code></td>
+<td>Ouvre le market</td>
+</tr>
+<tr>
+<td><code translate="no" v-pre>/market add [prix]</code></td>
+<td>Met en vente l&#x27;item que tu as en main</td>
+</tr>
+</tbody>
+</table>
+</div>
+</retype-table>
+<h3 id="nombre-de-places">Nombre de places</h3>
+<blockquote>
+<p><strong><span class="docs-emoji">&#x26A0;&#xFE0F;</span> Attention :</strong> les places sont limitées, et leur nombre dépend de ton <a href="/grades/">grade</a>.</p>
+</blockquote>
+<retype-table copy-text="| Grade | Places au market |
+|---|:---:|
+| Joueur | 10 |
+| VIP | 15 |
+| Master | 20 |">
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th>Grade</th>
+<th style="text-align: center;">Places au market</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Joueur</td>
+<td style="text-align: center;">10</td>
+</tr>
+<tr>
+<td>VIP</td>
+<td style="text-align: center;">15</td>
+</tr>
+<tr>
+<td>Master</td>
+<td style="text-align: center;">20</td>
+</tr>
+</tbody>
+</table>
+</div>
+</retype-table>
+<h2 id="autres-façons-de-gagner-de-largent">Autres façons de gagner de l&#x27;argent</h2>
+<p>D&#x27;autres méthodes sont disponibles :</p>
 <ul>
-<li><code translate="no" v-pre>/money</code>: Permet de voir ton solde actuel.</li>
-<li><code translate="no" v-pre>/baltop</code>: Permet de voir le classement de tous les joueurs.</li>
-<li><code translate="no" v-pre>/sell hand</code>: Permet de vendre ce que tu as dans la main.</li>
-<li><code translate="no" v-pre>/sell inventory</code>: Permet de vendre tout ce qui est vendable dans ton inventaire.</li>
-<li><code translate="no" v-pre>/pay [joueur] [montant]</code>: Permet de donner de l&#x27;argent à la personne voulu.</li>
+<li><strong>L&#x27;alcool</strong> : découvre comment brasser et vendre des boissons sur la page <a href="../alcool/">Boisson et Alcool</a>.</li>
 </ul>
-<h3 id="le-codex">Le codex</h3>
-<hr>
-<p>Une des façons principales du serveur pour gagner de l&#x27;argent sur le serveur est de vendre des minerais. Voici la liste ainsi que les prix de vente.</p>
+<h2 id="pages-liées">Pages liées</h2>
 <ul>
-<li><img src="../images/items/coal.png" alt="" class="max-w-full h-auto" width="16" /> Charbon -&gt; 4Ð</li>
-<li><img src="../images/items/redstone.png" alt="" class="max-w-full h-auto" width="16" /> Redstone -&gt; 3Ð</li>
-<li><img src="../images/items/lapis_lazuli.png" alt="" class="max-w-full h-auto" width="16" /> Lapis lazuli -&gt; 8Ð</li>
-<li><img src="../images/items/raw_copper.png" alt="" class="max-w-full h-auto" width="16" /> Cuivre brut -&gt; 4Ð /  <img src="../images/items/copper_ingot.png" alt="" class="max-w-full h-auto" width="16" /> Lingot de cuivre -&gt; 2Ð</li>
-<li><img src="../images/items/raw_iron.png" alt="" class="max-w-full h-auto" width="16" /> Fer brut -&gt; 7Ð /  <img src="../images/items/iron_ingot.png" alt="" class="max-w-full h-auto" width="16" /> Lingot de fer -&gt; 3Ð</li>
-<li><img src="../images/items/raw_gold.png" alt="" class="max-w-full h-auto" width="16" /> Or brut -&gt; 25Ð /  <img src="../images/items/gold_ingot.png" alt="" class="max-w-full h-auto" width="16" /> Lingot d&#x27;or -&gt; 5Ð</li>
-<li><img src="../images/items/emerald.png" alt="" class="max-w-full h-auto" width="16" /> Emeraude -&gt; 20Ð</li>
-<li><img src="../images/items/diamond.png" alt="" class="max-w-full h-auto" width="16" /> Diamant -&gt; 120Ð</li>
-<li><img src="../images/items/netherite_ingot.png" alt="" class="max-w-full h-auto" width="16" /> Lingot de netherite -&gt; 1000Ð</li>
-</ul>
-<p>Les blocs liés à ces minerais sont également vendables, il suffit de multiplier par 9 pour avoir le prix du bloc en question.</p>
-<h3 id="le-market">Le market</h3>
-<hr>
-<p>Afin de commercer avec les joueurs un market est disponible. Vous pouvez y vendre de tout.</p>
-<ul>
-<li><code translate="no" v-pre>/market</code>: Permet d&#x27;ouvrir le market.</li>
-<li><code translate="no" v-pre>/market add [prix]</code>: Met en vente l&#x27;item que vous avez en main.</li>
-</ul>
-<p>Attention, les places sont limitées, par défaut vous avez 10 places, les VIP ont 15 places et les Master 20 places.</p>
-<h3 id="autre-façon-de-gagner-de-largent">Autre façon de gagner de l&#x27;argent</h3>
-<hr>
-<p>D&#x27;autre méthode sont disponibles pour gagner de l&#x27;argent.</p>
-<ul>
-<li>L&#x27;alcool : Découvrir comment faire de l&#x27;alcool sur le serveur en cliquant <a href="https://wiki.decacraft.net/alcool/">ici</a>.</li>
+<li><a href="../alcool/">Boisson et Alcool</a> : fabriquer et vendre des boissons</li>
+<li><a href="/grades/">Les Grades</a> : les places du market selon ton grade</li>
+<li><a href="../rules/#article-9--l%C3%A9conomie">Règlement</a> : les règles sur l&#x27;économie</li>
 </ul>
 
                 

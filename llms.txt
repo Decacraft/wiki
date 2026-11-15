@@ -5,7 +5,7 @@
 - [Accueil](https://wiki.decacraft.net/readme.md): Accueil
 - [Règlement](https://wiki.decacraft.net/rules.md): Il est interdit de spammer.
 - [Play to Win](https://wiki.decacraft.net/play-to-win.md): Sur Decacraft, le mode Play2Win est bien plus qu’un simple système de progression : c’est le cœur de l’expérience de jeu.
-- [L'économie](https://wiki.decacraft.net/economy.md): Un système d'économie est mis en place, qui te permet de montrer ta puissance ! Tu peux utiliser l'argent pour acheter divers items dans le market ou ailleurs.
+- [L'économie](https://wiki.decacraft.net/economy.md): L'économie de DecaCraft : la monnaie (le Ð), les commandes, les prix de vente des minerais, le market entre joueurs et les autres moyens de gagner de l'argent.
 - [Les Mondes](https://wiki.decacraft.net/world.md): Les différents mondes de DecaCraft : construction, ressources et créatif. À quoi sert chaque monde et comment s'y repérer.
 - [Protections](https://wiki.decacraft.net/bolt.md): Ce plugin vous permet d'avoir tous vos conteneurs protégés par défaut : coffres, coffres piégés, fours, haut fourneaux, fumoirs, distributeurs, droppers,
 - [Recettes personnalisées](https://wiki.decacraft.net/customrecipe.md): Fonctionne exactement comme un cadre sauf que celui-ci est invisible.
