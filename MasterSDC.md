@@ -1,8 +1,8 @@
 ---
-icon: briefcase
+icon: archive
 title: Master SDC
 description: Master SDC trie tes items automatiquement : dépose-les dans le coffre Alpha et ils partent dans le coffre Bêta correspondant à leur filtre.
-order: 40
+order: 285
 ---
 
 # Master SDC
