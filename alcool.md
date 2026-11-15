@@ -17,11 +17,11 @@ Chaque boisson se fabrique en **4 étapes**, puis peut être vendue :
 
 | Étape | Où ? | Durée |
 |---|---|---|
-| 1. [Cuisson](#1-la-cuisson) | Chaudron sur une source de chaleur | Selon la recette (temps réel) |
-| 2. [Distillation](#2-la-distillation) | Alambic | Selon la recette |
-| 3. [Fermentation](#3-la-fermentation) | Tonneau en bois | 1 jour Minecraft = 20 min réelles |
-| 4. [Scellage](#4-le-scellage) | Table de scellage | Instantané |
-| 5. [Vente](#5-la-vente) | PNJ Amaury (taverne du spawn) | Instantané |
+| 1. [Cuisson](https://wiki.decacraft.net/alcool/#1-la-cuisson) | Chaudron sur une source de chaleur | Selon la recette (temps réel) |
+| 2. [Distillation](https://wiki.decacraft.net/alcool/#2-la-distillation) | Alambic | Selon la recette |
+| 3. [Fermentation](https://wiki.decacraft.net/alcool/#3-la-fermentation) | Tonneau en bois | 1 jour Minecraft = 20 min réelles |
+| 4. [Scellage](https://wiki.decacraft.net/alcool/#4-le-scellage) | Table de scellage | Instantané |
+| 5. [Vente](https://wiki.decacraft.net/alcool/#5-la-vente) | PNJ Amaury (taverne du spawn) | Instantané |
 
 > **⏱️ Le temps est réel.** Il continue de s’écouler même si tu es déconnecté ou si la zone n’est pas chargée. Dormir n’accélère rien.
 
@@ -29,7 +29,7 @@ Chaque boisson se fabrique en **4 étapes**, puis peut être vendue :
 
 Un **livre de recettes** t’est donné par le PNJ **Rodolphe**, dans la taverne du spawn. Toutes les recettes y sont visibles. Ce livre t’appartient : toi seul peux l’ouvrir.
 
-Tu obtiens de nouvelles recettes en complétant les **succès** liés à la création de boissons (voir la [FAQ](#comment-débloquer-les-recettes-)).
+Tu obtiens de nouvelles recettes en complétant les **succès** liés à la création de boissons (voir la [FAQ](https://wiki.decacraft.net/alcool/#foire-aux-questions)).
 
 ## 1. La cuisson
 
