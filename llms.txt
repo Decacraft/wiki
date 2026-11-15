@@ -12,4 +12,4 @@
 - [Master SDC](https://wiki.decacraft.net/mastersdc.md): Master SDC trie tes items automatiquement : dépose-les dans le coffre Alpha et ils partent dans le coffre Bêta correspondant à leur filtre.
 - [Boisson et Alcool](https://wiki.decacraft.net/alcool.md): Brasser des boissons et de l’alcool sur DecaCraft : cuisson, distillation, fermentation, scellage et vente. Guide complet de la mise à jour La Beuverie.
 - [Porte-armures personnalisés](https://wiki.decacraft.net/easyarmorstand.md): Personnalise tes porte-armures avec le plugin EasyArmorStand (EAS) : bâton éditeur, déplacement, options, couleurs de nom et copie des paramètres, sans commandes.
-- [Monde Créatif](https://wiki.decacraft.net/creative.md): Ce plugin vous permet d'avoir une parcelle et d'y construire en mode créatif. Les parcelles font une taille de 100x100 et vous pouvez y faire ce que vous voulez (en respectant les règles bien entendu...).
+- [Monde Créatif](https://wiki.decacraft.net/creative.md): Le monde créatif de DecaCraft : obtiens ta parcelle de 100x100 et construis en mode créatif. Commandes /plot, partage avec des amis et avantages VIP et Master.
