@@ -29,14 +29,14 @@ Une des principales façons de gagner de l'argent est de **vendre des minerais**
 |---|---:|---:|
 | ![Charbon](/images/items/coal.png) Charbon | 4 Ð | 36 Ð |
 | ![Redstone](/images/items/redstone.png) Redstone | 3 Ð | 27 Ð |
-| ![Lapis-lazuli](/images/items/lapis_lazuli.png) Lapis-lazuli | 8 Ð | 72 Ð |
+| ![Lapis-lazuli](/images/items/lapis_lazuli.png) Lapis-lazuli | 5 Ð | 45 Ð |
 | ![Cuivre brut](/images/items/raw_copper.png) Cuivre brut | 4 Ð | 36 Ð |
 | ![Lingot de cuivre](/images/items/copper_ingot.png) Lingot de cuivre | 2 Ð | 18 Ð |
 | ![Fer brut](/images/items/raw_iron.png) Fer brut | 7 Ð | 63 Ð |
 | ![Lingot de fer](/images/items/iron_ingot.png) Lingot de fer | 3 Ð | 27 Ð |
 | ![Or brut](/images/items/raw_gold.png) Or brut | 25 Ð | 225 Ð |
 | ![Lingot d'or](/images/items/gold_ingot.png) Lingot d'or | 5 Ð | 45 Ð |
-| ![Émeraude](/images/items/emerald.png) Émeraude | 20 Ð | 180 Ð |
+| ![Émeraude](/images/items/emerald.png) Émeraude | 15 Ð | 135 Ð |
 | ![Diamant](/images/items/diamond.png) Diamant | 120 Ð | 1 080 Ð |
 | ![Lingot de netherite](/images/items/netherite_ingot.png) Lingot de netherite | 1 000 Ð | 9 000 Ð |
 
