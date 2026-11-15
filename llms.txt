@@ -3,7 +3,7 @@
 > Le wiki officiel de DecaCraft, serveur Minecraft freebuild Play2Win. Règlement, économie, protections, grades et guides.
 
 - [Accueil](https://wiki.decacraft.net/readme.md): Accueil
-- [Règlement](https://wiki.decacraft.net/rules.md): Il est interdit de spammer.
+- [Règlement](https://wiki.decacraft.net/rules.md): Le règlement de DecaCraft : tchat, triche, grief, téléportation, ressources, redstone, constructions, PVP, économie et sanctions.
 - [Play to Win](https://wiki.decacraft.net/play-to-win.md): Sur Decacraft, le mode Play2Win est bien plus qu’un simple système de progression : c’est le cœur de l’expérience de jeu.
 - [L'économie](https://wiki.decacraft.net/economy.md): L'économie de DecaCraft : la monnaie (le Ð), les commandes, les prix de vente des minerais, le market entre joueurs et les autres moyens de gagner de l'argent.
 - [Les Mondes](https://wiki.decacraft.net/world.md): Les différents mondes de DecaCraft : construction, ressources et créatif. À quoi sert chaque monde et comment s'y repérer.
