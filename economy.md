@@ -55,7 +55,7 @@ Pour commercer avec les autres joueurs, un **market** est disponible. Tu peux y 
 
 ### Nombre de places
 
-> **⚠️ Attention :** les places sont limitées, et leur nombre dépend de ton [grade](/grades/).
+> **⚠️ Attention :** les places sont limitées, et leur nombre dépend de ton grade.
 
 | Grade | Places au market |
 |---|:---:|
