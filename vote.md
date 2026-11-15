@@ -30,7 +30,7 @@ Tu peux voter **autant de fois que tu veux**, dans la limite imposée par chaque
 
 ### Rappels de vote sur Discord
 
-Tu peux activer les **rappels de vote sur Discord** : un message t'est envoyé dès que tu peux **voter à nouveau**. Cette option se trouve dans la commande **`/vote`**.
+Tu peux activer les **rappels de vote sur Discord** : un message t'est envoyé dès que tu peux **voter à nouveau**. Cette option se trouve dans la commande **`/vote`**. 
 
 ## Tes récompenses
 
