@@ -9,7 +9,7 @@
 - [L'économie](https://wiki.decacraft.net/economy.md): Un système d'économie est mis en place, qui te permet de montrer ta puissance ! Tu peux utiliser l'argent pour acheter divers items dans le market ou ailleurs.
 - [Protections](https://wiki.decacraft.net/bolt.md): Ce plugin vous permet d'avoir tous vos conteneurs protégés par défaut : coffres, coffres piégés, fours, haut fourneaux, fumoirs, distributeurs, droppers,
 - [Recettes personnalisées](https://wiki.decacraft.net/customrecipe.md): Fonctionne exactement comme un cadre sauf que celui-ci est invisible.
+- [Master SDC](https://wiki.decacraft.net/mastersdc.md): Master SDC trie tes items automatiquement : dépose-les dans le coffre Alpha et ils partent dans le coffre Bêta correspondant à leur filtre.
 - [Alcool](https://wiki.decacraft.net/alcool.md): Faire des boissons et de l’alcool sur Decacraft est possible depuis la mise à jour La Beuverie. Une série de succès est liée à la création de boissons.
 - [Porte Armure personnalisé](https://wiki.decacraft.net/easyarmorstand.md): Les portes d'armures personnalisées sont possibles grâce au plugin EasyArmorStand (EAS). EasyArmorStand permet de modifier facilement les porte-armures dans Minecraft sans utiliser de commandes.
 - [Monde Créatif](https://wiki.decacraft.net/creative.md): Ce plugin vous permet d'avoir une parcelle et d'y construire en mode créatif. Les parcelles font une taille de 100x100 et vous pouvez y faire ce que vous voulez (en respectant les règles bien entendu...).
-- [Master SDC](https://wiki.decacraft.net/mastersdc.md): Master SDC (Salle Des Coffres) trie tes items à ta place. Tu déposes tout dans un seul coffre, l'Alpha, et chaque item part automatiquement dans le coffre Bêta dont le filtre correspond.
