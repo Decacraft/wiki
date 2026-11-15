@@ -13,4 +13,5 @@
 - [Boisson et Alcool](https://wiki.decacraft.net/alcool.md): Brasser des boissons et de l’alcool sur DecaCraft : cuisson, distillation, fermentation, scellage et vente. Guide complet de la mise à jour La Beuverie.
 - [Porte-armures personnalisés](https://wiki.decacraft.net/easyarmorstand.md): Personnalise tes porte-armures avec le plugin EasyArmorStand (EAS) : bâton éditeur, déplacement, options, couleurs de nom et copie des paramètres, sans commandes.
 - [Recettes personnalisées](https://wiki.decacraft.net/customrecipe.md): La liste des recettes de craft exclusives à DecaCraft : cadre invisible, ardoise des abîmes renforcée, grelampes, carte indestructible, coffre Alpha et éditeur de porte-armures.
+- [Vote et Vote Party](https://wiki.decacraft.net/vote.md): Vote pour DecaCraft et gagne des récompenses : points de vote, clefs de vote pour les Mystery Box, classement des meilleurs voteurs et Vote Party avec 5000 Ð pour tous.
 - [Monde Créatif](https://wiki.decacraft.net/creative.md): Le monde créatif de DecaCraft : obtiens ta parcelle de 100x100 et construis en mode créatif. Commandes /plot, partage avec des amis et avantages VIP et Master.
