@@ -2,7 +2,7 @@
 icon: tools
 title: Recettes personnalisées
 description: "La liste des recettes de craft exclusives à DecaCraft : cadre invisible, ardoise des abîmes renforcée, grelampes, carte indestructible, coffre Alpha et éditeur de porte-armures."
-order: 285
+order: 250
 ---
 
 # Liste des recettes personnalisées
