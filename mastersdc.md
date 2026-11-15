@@ -60,7 +60,7 @@ Le coffre **Alpha** est le point d'entrée de ta salle des coffres : c'est celui
 
 Les coffres **Bêta** sont les coffres de sortie : c'est là que les items sont triés. Un coffre Bêta peut avoir un ou plusieurs filtres. Pose d'abord un coffre simple ou double, puis choisis une méthode :
 
-Avec les items dans la commande
+### Avec les items dans la commande
 
 ```
 /sdc create beta <pseudo> <item> 
@@ -74,7 +74,7 @@ Exemple :
 /sdc create beta Steve COBBLESTONE COBBLESTONE_SLAB
 ```
 
-Avec l'item en main
+### Avec l'item en main
 
 ```
 /sdc create beta <pseudo>
@@ -85,7 +85,7 @@ Tiens en main l'item à trier, puis fais un **clic droit** sur le coffre.
 Coffre « Default »
 Si tu ne tiens aucun item lors du clic, le coffre devient un coffre **Default** : il reçoit tous les items qui ne correspondent à aucun autre filtre.
 
-Avec le contenu du coffre
+### Avec le contenu du coffre
 
 ```
 /sdc create beta <pseudo> @auto
